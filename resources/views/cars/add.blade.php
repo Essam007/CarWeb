@@ -115,18 +115,17 @@
             </div>
 
             <div class="form-group">
-                <label for="exampleInputPassword1">CAR PRICE</label>
-                <input type="text" class="form-control" name="price" placeholder="price of the car">
-                @error('price')
+                <label for="exampleInputPassword1">CAR MODEL</label>
+                <input type="text" class="form-control" name="model" placeholder="the car model">
+                @error('model')
                 <small class="form-text text-danger">{{$message}}</small>
                 @enderror
             </div>
 
             <div class="form-group">
-                <label for="exampleInputPassword1">CAR MODEL</label>
-                <input type="text" class="form-control" name="model"
-                       placeholder="the car model">
-                @error('model')
+                <label for="exampleInputPassword1">CAR PRICE</label>
+                <input type="text" class="form-control" name="price" placeholder="price of the car">
+                @error('price')
                 <small class="form-text text-danger">{{$message}}</small>
                 @enderror
             </div>

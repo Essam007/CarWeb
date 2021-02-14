@@ -24,7 +24,13 @@ class CaroController extends Controller
 
     public function store(Request $request)
     {
-        return $request;
+        Car::create([
+            'name'=> $request-> name ,
+            'price'=> $request-> price ,
+            'model'=> $request-> model ,
+            'details'=> $request-> details ,
+        ]);
+        return 'CarsSavedSuccess';
     }
 
 }
