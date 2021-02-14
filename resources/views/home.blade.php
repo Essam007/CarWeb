@@ -3,7 +3,8 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8 align-items-center">
+        <div class="col-lg-8 justify-content-center">
+            <form method="get" action="{{route('cars.add') }}">
                 <h3 class="font-weight-bold ">Welcome To Our Cars Dealership</h3>
                 <div class="card-body">
                     @if (session('status'))
@@ -13,6 +14,7 @@
                     @endif
                 </div>
             <button class="btn btn-primary">Check The Cars</button>
+            </form>
         </div>
     </div>
 </div>

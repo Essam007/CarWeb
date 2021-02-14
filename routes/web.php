@@ -13,7 +13,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index']);
 
 
 Route::get('/', function () {
@@ -24,11 +23,13 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
 Route::get('/fillable', [App\Http\Controllers\CaroController::class, 'getCars']);
 
+#################
 
-
-Route::get('/cars/add', [App\Http\Controllers\CaroController::class, 'add']);
+Route::get('/cars/add', [App\Http\Controllers\CaroController::class, 'add'])->name('cars.add');
 
 Route::post('/cars/store', [App\Http\Controllers\CaroController::class, 'store'])->name('cars.store');
 
