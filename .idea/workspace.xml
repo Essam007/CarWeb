@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dbdf41f-b62f-41dd-8be7-d11dbe730d05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CarWeb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/cars/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CarController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Car.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +146,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/auth" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/carz" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -153,6 +158,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\CarWeb\resources\views\carz" />
+      <recent name="C:\xampp\htdocs\CarWeb\resources\views\cars" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\auth" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views" />
     </key>
@@ -178,7 +185,24 @@
       <workItem from="1613028666074" duration="1813000" />
       <workItem from="1613030548972" duration="1791000" />
       <workItem from="1613032404679" duration="1793000" />
-      <workItem from="1613034221549" duration="699000" />
+      <workItem from="1613034221549" duration="1352000" />
+      <workItem from="1613036149434" duration="599000" />
+      <workItem from="1613038181238" duration="2003000" />
+      <workItem from="1613040265255" duration="3477000" />
+      <workItem from="1613043776403" duration="1150000" />
+      <workItem from="1613045592990" duration="599000" />
+      <workItem from="1613047682225" duration="1745000" />
+      <workItem from="1613049500716" duration="1468000" />
+      <workItem from="1613282196810" duration="1645000" />
+      <workItem from="1613283880415" duration="1789000" />
+      <workItem from="1613285701526" duration="1787000" />
+      <workItem from="1613287515286" duration="1782000" />
+      <workItem from="1613289332454" duration="1800000" />
+      <workItem from="1613291168059" duration="967000" />
+      <workItem from="1613293088722" duration="1908000" />
+      <workItem from="1613296012726" duration="1783000" />
+      <workItem from="1613297847405" duration="1482000" />
+      <workItem from="1613299672139" duration="322000" />
     </task>
     <servers />
   </component>
@@ -195,5 +219,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

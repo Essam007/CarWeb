@@ -7,8 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Car extends Model
 {
-    public function user()
-    {
-        return $this->belongsToMany(User::class);
-    }
+    protected $table ='cars';
+    protected $fillable = ['name','model','price','details','created_at','updated_at'];
+    protected $hidden = ['created_at','updated_at'];
+    public $timestamp = false;
 }
