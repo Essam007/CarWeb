@@ -53,13 +53,13 @@ class CaroController extends Controller
 
     protected function getMessages()
     {
-        return $messeages = [
+        return $messages = [
             'name.required'=>'Write the name',
             'name.unique'=>'The Car name exist',
             'name.max:100'=>'Type shorter name',
             'price.numeric'=>'The price must be numbers',
             'price.required'=>'Write price',
-            'model.unique'=>'The Model must be numbers',
+            'model.numeric'=>'The Model must be numbers',
             'model.required'=>'Write Model',
             'details.required'=>'U must right some details',
         ];

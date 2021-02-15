@@ -4,7 +4,6 @@
     <list default="true" id="6dbdf41f-b62f-41dd-8be7-d11dbe730d05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/cars/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/add.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +202,9 @@
       <workItem from="1613309070009" duration="4667000" />
       <workItem from="1613369342794" duration="1787000" />
       <workItem from="1613371165324" duration="1789000" />
-      <workItem from="1613372980322" duration="1419000" />
+      <workItem from="1613372980322" duration="1787000" />
+      <workItem from="1613374805842" duration="1218000" />
+      <workItem from="1613376621065" duration="393000" />
     </task>
     <servers />
   </component>
