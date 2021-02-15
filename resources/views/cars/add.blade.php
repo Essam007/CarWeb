@@ -17,7 +17,7 @@
     <!-- Styles -->
     <style>
         html, body {
-            background-color: #bb24d6;
+            background-color: #e5caea;
             color: #0a0a0a;
             font-family: 'Nunito', sans-serif;
             font-weight: 200;
@@ -105,7 +105,7 @@
         <form method="Post" action="{{route('cars.store') }}">
              @csrf
             <div class="form-group">
-                <label for="exampleInputEmail1">CAR NAME</label>
+                <label for="exampleInputEmail1">THE NAME</label>
                 <input type="text" class="form-control" name="name" placeholder="name of the car">
                 @error('name')
                 <small class="form-text text-danger">{{$message}}</small>
@@ -113,15 +113,15 @@
             </div>
 
             <div class="form-group">
-                <label for="exampleInputPassword1">CAR MODEL</label>
-                <input type="text" class="form-control" name="model" placeholder="the car model">
+                <label for="exampleInputPassword1">THE MODEL</label>
+                <input type="text" class="form-control" name="model" placeholder="model of the car">
                 @error('model')
                 <small class="form-text text-danger">{{$message}}</small>
                 @enderror
             </div>
 
             <div class="form-group">
-                <label for="exampleInputPassword1">CAR PRICE</label>
+                <label for="exampleInputPassword1">THE PRICE</label>
                 <input type="text" class="form-control" name="price" placeholder="price of the car">
                 @error('price')
                 <small class="form-text text-danger">{{$message}}</small>
@@ -129,9 +129,9 @@
             </div>
 
             <div class="form-group">
-                <label for="exampleInputPassword1">CAR DETAILS</label>
-                <input type="text" class="form-control" name="details_en"
-                       placeholder="the car details">
+                <label for="exampleInputPassword1">THE DETAILS</label>
+                <input type="text" class="form-control" name="details"
+                       placeholder="details of the car">
                 @error('details')
                 <small class="form-text text-danger">{{$message}}</small>
                 @enderror
