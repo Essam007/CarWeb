@@ -4,6 +4,8 @@
     <list default="true" id="6dbdf41f-b62f-41dd-8be7-d11dbe730d05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cars/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +206,15 @@
       <workItem from="1613371165324" duration="1789000" />
       <workItem from="1613372980322" duration="1787000" />
       <workItem from="1613374805842" duration="1218000" />
-      <workItem from="1613376621065" duration="393000" />
+      <workItem from="1613376621065" duration="1036000" />
+      <workItem from="1613378560631" duration="600000" />
+      <workItem from="1613380706475" duration="1792000" />
+      <workItem from="1613382523188" duration="1828000" />
+      <workItem from="1613384380640" duration="1257000" />
+      <workItem from="1613386193738" duration="599000" />
+      <workItem from="1613388016810" duration="1627000" />
+      <workItem from="1613389833039" duration="3213000" />
+      <workItem from="1613393100127" duration="163000" />
     </task>
     <servers />
   </component>

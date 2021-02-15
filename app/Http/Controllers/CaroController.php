@@ -34,12 +34,12 @@ class CaroController extends Controller
         }
 
         Car::create([
-            'name'=> $request-> name ,
-            'price'=> $request-> price ,
-            'model'=> $request-> model ,
-            'details'=> $request-> details ,
+            'name'=> $request -> name ,
+            'price'=> $request -> price ,
+            'model'=> $request -> model ,
+            'details'=> $request -> details ,
         ]);
-        return redirect()->back()->with(['success' => 'The car has been added successfully']);
+        return redirect()->back()->with(['success' => 'The Car Has Been Added Successfully']);
     }
     protected function getRules()
     {
@@ -56,9 +56,9 @@ class CaroController extends Controller
         return $messages = [
             'name.required'=>'Write the name',
             'name.unique'=>'The Car name exist',
-            'name.max:100'=>'Type shorter name',
+            'name.max:100'=>'Type Shorter name',
             'price.numeric'=>'The price must be numbers',
-            'price.required'=>'Write price',
+            'price.required'=>'Write The price',
             'model.numeric'=>'The Model must be numbers',
             'model.required'=>'Write Model',
             'details.required'=>'U must right some details',

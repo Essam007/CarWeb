@@ -13,7 +13,10 @@
                         </div>
                     @endif
                 </div>
-            <button class="btn btn-primary">Check The Cars</button>
+            <button class="btn btn-primary">Add New Car</button>
+            </form>
+            <form method="get" class="d-flex pt-5">
+                <button class="btn btn-primary" >Check The Cars</button>
             </form>
         </div>
     </div>

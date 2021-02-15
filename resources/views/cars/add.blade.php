@@ -130,8 +130,7 @@
 
             <div class="form-group">
                 <label for="exampleInputPassword1">THE DETAILS</label>
-                <input type="text" class="form-control" name="details"
-                       placeholder="details of the car">
+                <input type="text" class="form-control" name="details" placeholder="details of the car">
                 @error('details')
                 <small class="form-text text-danger">{{$message}}</small>
                 @enderror

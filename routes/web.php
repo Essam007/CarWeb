@@ -33,6 +33,7 @@ Route::get('/cars/add', [App\Http\Controllers\CaroController::class, 'add'])->na
 
 Route::post('/cars/store', [App\Http\Controllers\CaroController::class, 'store'])->name('cars.store');
 
+Route::post('/cars/all', [App\Http\Controllers\CaroController::class, 'all'])->name('cars.all');
 
 
 
