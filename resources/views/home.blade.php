@@ -15,7 +15,7 @@
                 </div>
             <button class="btn btn-primary">Add New Car</button>
             </form>
-            <form method="get" class="d-flex pt-5">
+            <form method="get" action="{{route('cars.all')}}" class="d-flex pt-5">
                 <button class="btn btn-primary" >Check The Cars</button>
             </form>
         </div>
