@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
+        <div class="row justify-content-center">
         <div class="col-lg-8 justify-content-center">
             <form method="get" action="{{route('cars.add') }}">
                 <h3 class="font-weight-bold ">Welcome To Our Cars Dealership</h3>

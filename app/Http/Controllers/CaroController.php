@@ -44,7 +44,7 @@ class CaroController extends Controller
     protected function getRules()
     {
         return $rules = [
-            'name'=> 'required|max:100|unique:cars,name',
+            'name'=> 'required|max:100',
             'price'=> 'required|numeric',
             'model'=> 'required|numeric',
             'details'=> 'required',
@@ -55,7 +55,6 @@ class CaroController extends Controller
     {
         return $messages = [
             'name.required'=>'Write the name',
-            'name.unique'=>'The Car name exist',
             'name.max:100'=>'Type Shorter name',
             'price.numeric'=>'The price must be numbers',
             'price.required'=>'Write The price',
@@ -63,6 +62,36 @@ class CaroController extends Controller
             'model.required'=>'Write Model',
             'details.required'=>'U must right some details',
         ];
+    }
+
+    public function getAllCars()
+    {
+        $cars = Car::select('id','name','price','model','details')->get();
+        return view('cars.all',compact('cars'));
+    }
+
+    public function editCar($car_id)
+    {
+
+        $car = Car::find($car_id);
+        if (!$car)
+            return redirect()->back();
+
+        $car = Car::select('id','name','model','price','details')->find($car_id);
+
+        return view('cars.edit', compact('car'));
+    }
+
+    public function updateCar(Request $request, $car_id)
+    {
+
+        $car = Car::find($car_id);
+        if (!$car)
+            return redirect()->back();
+
+        $car->update($request->all());
+
+        return redirect()->back()->with(['success' => ' Updated Successfully ']);
     }
 
 }

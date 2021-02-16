@@ -20,7 +20,6 @@ Route::get('/', function () {
 });
 
 
-
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
@@ -33,7 +32,11 @@ Route::get('/cars/add', [App\Http\Controllers\CaroController::class, 'add'])->na
 
 Route::post('/cars/store', [App\Http\Controllers\CaroController::class, 'store'])->name('cars.store');
 
-Route::get('/cars/all', [App\Http\Controllers\CaroController::class, 'all'])->name('cars.all');
+Route::get('/cars/all', [App\Http\Controllers\CaroController::class, 'getAllCars'])->name('cars.all');
+
+Route::get('/cars/edit/{car_id}', [App\Http\Controllers\CaroController::class, 'editCar'])->name('cars.edit');
+
+Route::get('/cars/update/{car_id}', [App\Http\Controllers\CaroController::class, 'updateCar'])->name('cars.update');
 
 
 

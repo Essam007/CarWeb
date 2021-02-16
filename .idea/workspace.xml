@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dbdf41f-b62f-41dd-8be7-d11dbe730d05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/cars/all.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/cars/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/cars/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +135,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1oKEVKlnmtQ6tHEE5IBi1doTHUf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -139,7 +146,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/carz" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/cars" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -151,8 +158,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\CarWeb\resources\views\carz" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views\cars" />
+      <recent name="C:\xampp\htdocs\CarWeb\resources\views\carz" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\auth" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views" />
     </key>
@@ -214,7 +221,23 @@
       <workItem from="1613388016810" duration="1627000" />
       <workItem from="1613389833039" duration="3213000" />
       <workItem from="1613393100127" duration="1557000" />
-      <workItem from="1613394913982" duration="1139000" />
+      <workItem from="1613394913982" duration="2396000" />
+      <workItem from="1613455382792" duration="1784000" />
+      <workItem from="1613457192531" duration="1781000" />
+      <workItem from="1613459015641" duration="1783000" />
+      <workItem from="1613460863678" duration="1779000" />
+      <workItem from="1613462676551" duration="1791000" />
+      <workItem from="1613464494137" duration="2256000" />
+      <workItem from="1613466781985" duration="599000" />
+      <workItem from="1613467714045" duration="599000" />
+      <workItem from="1613469528382" duration="1540000" />
+      <workItem from="1613471491117" duration="1626000" />
+      <workItem from="1613473308899" duration="1371000" />
+      <workItem from="1613475121353" duration="1053000" />
+      <workItem from="1613476941286" duration="1036000" />
+      <workItem from="1613478467874" duration="1838000" />
+      <workItem from="1613480336746" duration="1788000" />
+      <workItem from="1613482152831" duration="1529000" />
     </task>
     <servers />
   </component>
