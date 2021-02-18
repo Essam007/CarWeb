@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Car extends Model
 {
     protected $table ='cars';
-    protected $fillable = ['name','model','price','details','created_at','updated_at'];
+    protected $fillable = ['name','model','photo','price','details','created_at','updated_at'];
     protected $hidden = ['created_at','updated_at'];
     public $timestamp = false;
 }

@@ -92,10 +92,14 @@
             <button class="btn btn-primary top-right">Home</button>
         </form>
 
+        <form method="get" action="{{route('cars.all') }}" class="d-flex pl-5">
+            <button class="btn btn-primary align-bottom">all cars</button>
+        </form>
+
     </div>
 </nav>
 
-<div class="flex-center position-ref full-height">
+<div class="flex-center">
     <div class="content">
         <div class="title m-b-md">
             ADD CAR
@@ -107,8 +111,17 @@
             </div>
         @endif
         <br>
-        <form method="Post" action="{{route('cars.store') }}">
+        <form method="Post" action="{{route('cars.store') }}" enctype="multipart/form-data">
              @csrf
+
+            <div class="form-group">
+                <label for="exampleInputEmail">UPLOAD IMAGE</label>
+                <input type="file" class="form-control" name="photo">
+                @error('photo')
+                <small class="form-text text-danger">{{$message}}</small>
+                @enderror
+            </div>
+
             <div class="form-group">
                 <label for="exampleInputEmail1">THE NAME</label>
                 <input type="text" class="form-control" name="name" placeholder="name of the car">

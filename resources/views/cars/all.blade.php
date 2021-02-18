@@ -101,6 +101,9 @@
         <th scope="col">Car Price</th>
         <th scope="col">Car Model</th>
         <th scope="col">Car Details</th>
+        <th scope="col">Car Photo</th>
+        <th scope="col">Edit Info</th>
+        <th scope="col">Delete Car</th>
     </tr>
     </thead>
     <tbody>
@@ -112,9 +115,15 @@
         <td>{{$car->price}}</td>
         <td>{{$car->model}}</td>
         <td>{{$car->details}}</td>
+        <td><img style="width: 120px; height: 110px;" src="{{asset('images/cars/'.$car->photo)}}"></td>
         <td>
             <form method="get" action="{{route('cars.edit',$car->id)}}">
                 <button class="btn btn-success">{{'update'}}</button>
+            </form>
+        </td>
+        <td>
+            <form method="get" action="{{route('cars.delete',$car->id)}}">
+                <button class="btn btn-danger">{{'delete'}}</button>
             </form>
         </td>
     </tr>

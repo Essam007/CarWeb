@@ -50,7 +50,7 @@
         }
 
         .title {
-            font-size: 84px;
+            font-size: 64px;
         }
 
         .error {
@@ -68,7 +68,7 @@
         }
 
         .m-b-md {
-            margin-bottom: 30px;
+            margin-bottom: 20px;
         }
     </style>
 </head>
@@ -111,11 +111,20 @@
             </div>
         @endif
         <br>
-        <form method="get" action="{{route('cars.update',$car->id) }}">
+        <form method="get" action="{{route('cars.update',$car->id) }}" enctype="multipart/form-data">
              @csrf
+
+            <div class="form-group">
+                <label for="exampleInputEmail1">New Photo</label>
+                <input type="file" class="form-control" name="photo" value="{{$car->photo}}">
+                @error('photo')
+                <small class="form-text text-danger">{{$message}}</small>
+                @enderror
+            </div>
+
             <div class="form-group">
                 <label for="exampleInputEmail1">THE NAME</label>
-                <input type="text" class="form-control" name="name" value="{{$car->name}}" placeholder="name of the car">
+                <input type="text" class="form-control" name="name" value="{{$car->name}}">
                 @error('name')
                 <small class="form-text text-danger">{{$message}}</small>
                 @enderror
@@ -123,7 +132,7 @@
 
             <div class="form-group">
                 <label for="exampleInputPassword1">THE MODEL</label>
-                <input type="text" class="form-control" name="model" value="{{$car->model}}" placeholder="model of the car">
+                <input type="text" class="form-control" name="model" value="{{$car->model}}">
                 @error('model')
                 <small class="form-text text-danger">{{$message}}</small>
                 @enderror
@@ -131,7 +140,7 @@
 
             <div class="form-group">
                 <label for="exampleInputPassword1">THE PRICE</label>
-                <input type="text" class="form-control" name="price" value="{{$car->price}}" placeholder="price of the car">
+                <input type="text" class="form-control" name="price" value="{{$car->price}}">
                 @error('price')
                 <small class="form-text text-danger">{{$message}}</small>
                 @enderror
@@ -139,7 +148,7 @@
 
             <div class="form-group">
                 <label for="exampleInputPassword1">THE DETAILS</label>
-                <input type="text" class="form-control" name="details" value="{{$car->details}}" placeholder="details of the car">
+                <input type="text" class="form-control" name="details" value="{{$car->details}}">
                 @error('details')
                 <small class="form-text text-danger">{{$message}}</small>
                 @enderror
@@ -147,6 +156,7 @@
 
             <button type="submit" class="btn btn-primary">Save edit</button>
         </form>
+
 
 
     </div>

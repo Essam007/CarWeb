@@ -33,7 +33,14 @@ class CaroController extends Controller
             return redirect()->back()->withErrors($validator)->withInput($request->all());
         }
 
+        $file_extension =$request->photo->getClientOriginalExtension();
+        $file_name = time().'.'.$file_extension;
+        $path='images/cars';
+        $request->photo->move($path,$file_name);
+
+
         Car::create([
+            'photo'=> $file_name,
             'name'=> $request -> name ,
             'price'=> $request -> price ,
             'model'=> $request -> model ,
@@ -48,6 +55,7 @@ class CaroController extends Controller
             'price'=> 'required|numeric',
             'model'=> 'required|numeric',
             'details'=> 'required',
+            'photo'=> 'required',
         ];
     }
 
@@ -61,12 +69,13 @@ class CaroController extends Controller
             'model.numeric'=>'The Model must be numbers',
             'model.required'=>'Write Model',
             'details.required'=>'U must right some details',
+            'photo.required'=>'U have to Insert a Photo',
         ];
     }
 
     public function getAllCars()
     {
-        $cars = Car::select('id','name','price','model','details')->get();
+        $cars = Car::select('id','photo','name','price','model','details')->get();
         return view('cars.all',compact('cars'));
     }
 
@@ -77,7 +86,7 @@ class CaroController extends Controller
         if (!$car)
             return redirect()->back();
 
-        $car = Car::select('id','name','model','price','details')->find($car_id);
+        $car = Car::select('id','name','model','price','details','photo')->find($car_id);
 
         return view('cars.edit', compact('car'));
     }
@@ -92,6 +101,21 @@ class CaroController extends Controller
         $car->update($request->all());
 
         return redirect()->back()->with(['success' => ' Updated Successfully ']);
+    }
+
+    public function deleteCar($car_id)
+    {
+
+        $car = Car::find($car_id);
+
+        if (!$car)
+            return redirect()->back()->with(['error' => __('messages.car not exist')]);
+
+        $car->delete();
+
+        return redirect()
+            ->route('cars.all');
+
     }
 
 }

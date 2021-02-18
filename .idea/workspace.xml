@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dbdf41f-b62f-41dd-8be7-d11dbe730d05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/cars/all.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cars/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cars/1613629243.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cars/1613629325.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cars/1613629368.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cars/1613629409.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cars/1613629462.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cars/1613637421.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Car.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cars/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cars/all.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/all.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cars/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,6 +150,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -237,7 +245,36 @@
       <workItem from="1613476941286" duration="1036000" />
       <workItem from="1613478467874" duration="1838000" />
       <workItem from="1613480336746" duration="1788000" />
-      <workItem from="1613482152831" duration="1529000" />
+      <workItem from="1613482152831" duration="2000000" />
+      <workItem from="1613540176793" duration="599000" />
+      <workItem from="1613542072873" duration="1784000" />
+      <workItem from="1613543889873" duration="1778000" />
+      <workItem from="1613545740731" duration="1717000" />
+      <workItem from="1613547552812" duration="860000" />
+      <workItem from="1613549374733" duration="1402000" />
+      <workItem from="1613551188131" duration="1783000" />
+      <workItem from="1613553005372" duration="1098000" />
+      <workItem from="1613555312892" duration="1393000" />
+      <workItem from="1613557127255" duration="1850000" />
+      <workItem from="1613559015936" duration="1787000" />
+      <workItem from="1613561033454" duration="1820000" />
+      <workItem from="1613562884996" duration="1559000" />
+      <workItem from="1613564814357" duration="1256000" />
+      <workItem from="1613566636161" duration="1782000" />
+      <workItem from="1613568462382" duration="1187000" />
+      <workItem from="1613626768088" duration="1202000" />
+      <workItem from="1613628501296" duration="1266000" />
+      <workItem from="1613630368575" duration="1364000" />
+      <workItem from="1613632183456" duration="1788000" />
+      <workItem from="1613633999798" duration="1789000" />
+      <workItem from="1613635812793" duration="1895000" />
+      <workItem from="1613637739241" duration="599000" />
+      <workItem from="1613639661280" duration="598000" />
+      <workItem from="1613641513714" duration="1705000" />
+      <workItem from="1613643333938" duration="1783000" />
+      <workItem from="1613645149018" duration="1784000" />
+      <workItem from="1613646972456" duration="1787000" />
+      <workItem from="1613648793423" duration="1783000" />
     </task>
     <servers />
   </component>
@@ -255,5 +292,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
