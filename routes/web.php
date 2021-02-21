@@ -40,5 +40,5 @@ Route::get('/cars/update/{car_id}', [App\Http\Controllers\CaroController::class,
 
 Route::get('/cars/delete/{car_id}', [App\Http\Controllers\CaroController::class, 'deleteCar'])->name('cars.delete');
 
-
+Route::get('/cars/{car_id}', [App\Http\Controllers\CaroController::class, 'showCar'])->name('cars.show');
 

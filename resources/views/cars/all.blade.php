@@ -115,7 +115,11 @@
         <td>{{$car->price}}</td>
         <td>{{$car->model}}</td>
         <td>{{$car->details}}</td>
-        <td><img style="width: 120px; height: 110px;" src="{{asset('images/cars/'.$car->photo)}}"></td>
+        <td>
+            <a href="/cars/{{$car->id}}">
+                <img style="width: 120px; height: 110px;" src="{{asset('images/cars/'.$car->photo)}}">
+            </a>
+        </td>
         <td>
             <form method="get" action="{{route('cars.edit',$car->id)}}">
                 <button class="btn btn-success">{{'update'}}</button>

@@ -118,4 +118,15 @@ class CaroController extends Controller
 
     }
 
+    public function showCar($car_id)
+    {
+        $car = Car::find($car_id);
+        if (!$car)
+            return redirect()->back();
+
+        $car = Car::select('id','name','model','price','details','photo')->find($car_id);
+
+        return view('cars.show' , compact('car'));
+    }
+
 }
