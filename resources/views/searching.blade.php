@@ -28,7 +28,7 @@
                                 <td>{{$car->details}}</td>
                                 <td>
                                     <a href="/cars/{{$car->id}}">
-                                        <img style="width: 120px; height: 110px;" src="{{asset('images/cars/'.$car->photo)}}">
+                                        <img style="width: 120px; height: 110px;" src="{{asset('images/cars/'.$car->photo)}}" alt="">
                                     </a>
                                 </td>
                             </tr>
