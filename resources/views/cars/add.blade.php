@@ -75,7 +75,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Write Here To</a>
+    <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -83,16 +83,11 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-
         <form method="get" action="{{route('home') }}" class="d-flex pb-5">
             <button class="btn btn-primary top-right">Home</button>
         </form>
 
-        <form method="get" action="{{route('cars.all') }}" class="d-flex pl-5">
+        <form method="get" action="{{route('cars.all') }}" class="d-flex">
             <button class="btn btn-primary align-bottom">all cars</button>
         </form>
 

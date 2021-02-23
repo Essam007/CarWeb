@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbdf41f-b62f-41dd-8be7-d11dbe730d05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/cars/1613651869.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/cars/1613656059.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cars/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/searching.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CarWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CarWeb.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/cars/1613629368.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/cars/1613629409.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Car.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cars/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/add.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/cars/all.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/all.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cars/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cars/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,10 +154,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/cars" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -163,10 +171,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\CarWeb\resources\views" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views\cars" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views\carz" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\auth" />
-      <recent name="C:\xampp\htdocs\CarWeb\resources\views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\CarWeb\resources\views" />
@@ -285,6 +293,40 @@
       <workItem from="1613905175358" duration="3349000" />
       <workItem from="1613908812162" duration="599000" />
       <workItem from="1613911799877" duration="599000" />
+      <workItem from="1613913623987" duration="599000" />
+      <workItem from="1613917995073" duration="601000" />
+      <workItem from="1613972386401" duration="1155000" />
+      <workItem from="1613974527005" duration="943000" />
+      <workItem from="1613976338836" duration="1783000" />
+      <workItem from="1613978151896" duration="1790000" />
+      <workItem from="1613979964325" duration="1358000" />
+      <workItem from="1613981782153" duration="1716000" />
+      <workItem from="1613983595030" duration="2211000" />
+      <workItem from="1613985830233" duration="602000" />
+      <workItem from="1613987830592" duration="1570000" />
+      <workItem from="1613989643739" duration="1789000" />
+      <workItem from="1613991456826" duration="1789000" />
+      <workItem from="1613993269886" duration="1786000" />
+      <workItem from="1613995081283" duration="1986000" />
+      <workItem from="1613997091053" duration="1078000" />
+      <workItem from="1613998925813" duration="1786000" />
+      <workItem from="1614000739665" duration="1430000" />
+      <workItem from="1614058450666" duration="779000" />
+      <workItem from="1614060103455" duration="1784000" />
+      <workItem from="1614061917208" duration="1788000" />
+      <workItem from="1614063729644" duration="1778000" />
+      <workItem from="1614065545085" duration="1425000" />
+      <workItem from="1614067361705" duration="1394000" />
+      <workItem from="1614069183720" duration="1198000" />
+      <workItem from="1614070998399" duration="1301000" />
+      <workItem from="1614072818586" duration="1277000" />
+      <workItem from="1614074630626" duration="1361000" />
+      <workItem from="1614076541752" duration="999000" />
+      <workItem from="1614078357619" duration="1443000" />
+      <workItem from="1614080172262" duration="1639000" />
+      <workItem from="1614082016673" duration="1198000" />
+      <workItem from="1614083940013" duration="1028000" />
+      <workItem from="1614085948490" duration="885000" />
     </task>
     <servers />
   </component>

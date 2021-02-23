@@ -115,14 +115,6 @@
              @csrf
 
             <div class="form-group">
-                <label for="exampleInputEmail1">New Photo</label>
-                <input type="file" class="form-control" name="photo" value="{{$car->photo}}">
-                @error('photo')
-                <small class="form-text text-danger">{{$message}}</small>
-                @enderror
-            </div>
-
-            <div class="form-group">
                 <label for="exampleInputEmail1">THE NAME</label>
                 <input type="text" class="form-control" name="name" value="{{$car->name}}">
                 @error('name')

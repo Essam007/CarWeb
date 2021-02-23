@@ -16,7 +16,10 @@
             <div><h3>Car Details : {{$car->details}}</h3></div>
             <div>
                 <form method="get" action="{{route('cars.all') }}" class="d-flex pt-5">
-                    <button class="btn btn-primary align-bottom">GO BACK</button>
+                    <button class="btn btn-primary align-bottom">BACK TO THE CARS</button>
+                </form>
+                <form method="get" action="{{route('home') }}" class="d-flex pt-5">
+                    <button class="btn btn-primary align-bottom">HOME</button>
                 </form>
             </div>
         </div>

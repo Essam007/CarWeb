@@ -8,9 +8,10 @@ use Illuminate\Support\Facades\Validator;
 
 class CaroController extends Controller
 {
+
     public function __construct()
     {
-
+        $this->middleware('auth');
     }
 
     public function getCars()
@@ -127,6 +128,19 @@ class CaroController extends Controller
         $car = Car::select('id','name','model','price','details','photo')->find($car_id);
 
         return view('cars.show' , compact('car'));
+    }
+
+    public function index(Request $request)
+    {
+        $search = $request->input('search');
+        $cars = Car::search($search)->get();
+        return view('searching', compact('cars', 'search'));
+    }
+
+    public function show($id)
+    {
+        $car = Car::find($id);
+        return view('cars.show', compact('car'));
     }
 
 }
