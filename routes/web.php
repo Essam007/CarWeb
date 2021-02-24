@@ -43,6 +43,6 @@ Route::get('/cars/delete/{car_id}', [App\Http\Controllers\CaroController::class,
 Route::get('/cars/{car_id}', [App\Http\Controllers\CaroController::class, 'showCar'])->name('cars.show');
 
 #################################
+Route::get('/search', [App\Http\Controllers\CaroController::class, 'index'])->name('search');
 
-Route::get('/searching',[App\Http\Controllers\CaroController::class, 'index'])->name('search');
 

@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbdf41f-b62f-41dd-8be7-d11dbe730d05" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/CarWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CarWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/searching.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/searching.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cars/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +153,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/auth/admin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -159,12 +165,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\CarWeb\resources\views\auth\admin" />
+      <recent name="C:\xampp\htdocs\CarWeb\routes" />
+      <recent name="C:\xampp\htdocs\CarWeb\app\Http\Controllers\Auth" />
+      <recent name="C:\xampp\htdocs\CarWeb\app\Http\Middleware" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views" />
-      <recent name="C:\xampp\htdocs\CarWeb\resources\views\cars" />
-      <recent name="C:\xampp\htdocs\CarWeb\resources\views\carz" />
-      <recent name="C:\xampp\htdocs\CarWeb\resources\auth" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\CarWeb\app\Http\Controllers\Auth" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views" />
     </key>
   </component>
@@ -315,7 +323,23 @@
       <workItem from="1614082016673" duration="1198000" />
       <workItem from="1614083940013" duration="1028000" />
       <workItem from="1614085948490" duration="1479000" />
-      <workItem from="1614087764089" duration="364000" />
+      <workItem from="1614087764089" duration="789000" />
+      <workItem from="1614144961917" duration="592000" />
+      <workItem from="1614146765736" duration="1548000" />
+      <workItem from="1614148584624" duration="1783000" />
+      <workItem from="1614150398936" duration="1786000" />
+      <workItem from="1614152212851" duration="1787000" />
+      <workItem from="1614154031503" duration="1791000" />
+      <workItem from="1614155846003" duration="1018000" />
+      <workItem from="1614157659219" duration="599000" />
+      <workItem from="1614159529390" duration="597000" />
+      <workItem from="1614161351582" duration="1723000" />
+      <workItem from="1614163201317" duration="1195000" />
+      <workItem from="1614165018682" duration="820000" />
+      <workItem from="1614167221980" duration="1778000" />
+      <workItem from="1614169033950" duration="1416000" />
+      <workItem from="1614170976486" duration="1725000" />
+      <workItem from="1614172796399" duration="708000" />
     </task>
     <servers />
   </component>

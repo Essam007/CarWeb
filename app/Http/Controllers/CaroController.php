@@ -39,7 +39,6 @@ class CaroController extends Controller
         $path='images/cars';
         $request->photo->move($path,$file_name);
 
-
         Car::create([
             'photo'=> $file_name,
             'name'=> $request -> name ,
@@ -82,41 +81,33 @@ class CaroController extends Controller
 
     public function editCar($car_id)
     {
-
         $car = Car::find($car_id);
         if (!$car)
             return redirect()->back();
 
         $car = Car::select('id','name','model','price','details','photo')->find($car_id);
-
         return view('cars.edit', compact('car'));
     }
 
     public function updateCar(Request $request, $car_id)
     {
-
         $car = Car::find($car_id);
         if (!$car)
             return redirect()->back();
 
         $car->update($request->all());
-
         return redirect()->back()->with(['success' => ' Updated Successfully ']);
     }
 
     public function deleteCar($car_id)
     {
-
         $car = Car::find($car_id);
-
         if (!$car)
             return redirect()->back()->with(['error' => __('messages.car not exist')]);
 
         $car->delete();
-
         return redirect()
             ->route('cars.all');
-
     }
 
     public function showCar($car_id)
@@ -126,7 +117,6 @@ class CaroController extends Controller
             return redirect()->back();
 
         $car = Car::select('id','name','model','price','details','photo')->find($car_id);
-
         return view('cars.show' , compact('car'));
     }
 
@@ -141,6 +131,12 @@ class CaroController extends Controller
     {
         $car = Car::find($id);
         return view('cars.show', compact('car'));
+    }
+
+    public function comments()
+    {
+        $comments = Comment::orderBy('id desc')->get();
+        return view('home', ['comments' => $comments]);
     }
 
 }
