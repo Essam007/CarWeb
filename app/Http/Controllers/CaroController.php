@@ -133,10 +133,10 @@ class CaroController extends Controller
         return view('cars.show', compact('car'));
     }
 
-    public function comments()
-    {
-        $comments = Comment::orderBy('id desc')->get();
-        return view('home', ['comments' => $comments]);
-    }
+//    public function comments()
+//    {
+//        $comments = Comment::orderBy('id desc')->get();
+//        return view('home', ['comments' => $comments]);
+//    }
 
 }

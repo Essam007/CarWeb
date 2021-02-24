@@ -28,7 +28,7 @@
 <div class="justify-content-center pl-5 pt-5">
 <h2>Comments</h2>
 <form onsubmit="addComment(event);">
-    <input type="text" placeholder="Add a comment" name="text" id="text" required class="justify-content-center">
+    <input type="text" placeholder="Add a comment" name="text" id="text" required>
     <input type="text" placeholder="Your name" name="username" id="username" required>
     <button id="addCommentBtn">Comment</button>
 </form>
