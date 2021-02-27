@@ -45,4 +45,4 @@ Route::get('/cars/{car_id}', [App\Http\Controllers\CaroController::class, 'showC
 #################################
 Route::get('/search', [App\Http\Controllers\CaroController::class, 'index'])->name('search');
 
-
+##########################################

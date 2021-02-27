@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbdf41f-b62f-41dd-8be7-d11dbe730d05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_25_080734_create_comments_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CarWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CarWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Car.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/cars/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +154,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/auth/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/posts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -158,11 +166,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\CarWeb\resources\views\posts" />
+      <recent name="C:\xampp\htdocs\CarWeb\resources\views\cars" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views\auth\admin" />
       <recent name="C:\xampp\htdocs\CarWeb\routes" />
       <recent name="C:\xampp\htdocs\CarWeb\app\Http\Controllers\Auth" />
-      <recent name="C:\xampp\htdocs\CarWeb\app\Http\Middleware" />
-      <recent name="C:\xampp\htdocs\CarWeb\resources\views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\CarWeb\app\Http\Controllers\Auth" />
@@ -332,7 +340,23 @@
       <workItem from="1614167221980" duration="1778000" />
       <workItem from="1614169033950" duration="1416000" />
       <workItem from="1614170976486" duration="1725000" />
-      <workItem from="1614172796399" duration="1339000" />
+      <workItem from="1614172796399" duration="1703000" />
+      <workItem from="1614231686349" duration="1774000" />
+      <workItem from="1614233497764" duration="1785000" />
+      <workItem from="1614235315368" duration="1782000" />
+      <workItem from="1614237126052" duration="1546000" />
+      <workItem from="1614238961678" duration="1786000" />
+      <workItem from="1614240772391" duration="1788000" />
+      <workItem from="1614242593119" duration="1647000" />
+      <workItem from="1614244407685" duration="605000" />
+      <workItem from="1614246363529" duration="1558000" />
+      <workItem from="1614248176552" duration="1367000" />
+      <workItem from="1614249991345" duration="1787000" />
+      <workItem from="1614251811603" duration="1871000" />
+      <workItem from="1614253709768" duration="636000" />
+      <workItem from="1614255526825" duration="2029000" />
+      <workItem from="1614257657362" duration="599000" />
+      <workItem from="1614259732250" duration="599000" />
     </task>
     <servers />
   </component>

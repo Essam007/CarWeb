@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Car;
+use App\Models\Comment;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
@@ -132,11 +133,5 @@ class CaroController extends Controller
         $car = Car::find($id);
         return view('cars.show', compact('car'));
     }
-
-//    public function comments()
-//    {
-//        $comments = Comment::orderBy('id desc')->get();
-//        return view('home', ['comments' => $comments]);
-//    }
 
 }

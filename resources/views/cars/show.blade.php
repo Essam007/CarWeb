@@ -24,25 +24,7 @@
             </div>
         </div>
     </div>
-</div>
-<div class="justify-content-center pl-5 pt-5">
-<h2>Comments</h2>
-<form onsubmit="addComment(event);">
-    <input type="text" placeholder="Add a comment" name="text" id="text" required>
-    <input type="text" placeholder="Your name" name="username" id="username" required>
-    <button id="addCommentBtn">Comment</button>
-</form>
-<div class="alert" id="alert" style="display: none;"></div>
-<br>
-{{--<div id="comments">--}}
-{{--    @foreach($comments as $comment)--}}
-{{--        <div>--}}
-{{--            <small>{{ $comment->username }}</small>--}}
-{{--            <br>--}}
-{{--            {{ $comment->text }}--}}
-{{--        </div>--}}
-{{--    @endforeach--}}
-{{--</div>--}}
+    </div>
 </div>
 
 @endsection
