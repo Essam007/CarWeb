@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbdf41f-b62f-41dd-8be7-d11dbe730d05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Models/Comment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_25_080734_create_comments_table.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/cars/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
     </list>
@@ -367,7 +363,8 @@
       <workItem from="1614511995481" duration="1786000" />
       <workItem from="1614513813194" duration="1823000" />
       <workItem from="1614515657624" duration="599000" />
-      <workItem from="1614517546117" duration="967000" />
+      <workItem from="1614517546117" duration="1805000" />
+      <workItem from="1614519383658" duration="314000" />
     </task>
     <servers />
   </component>

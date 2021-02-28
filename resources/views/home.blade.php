@@ -22,7 +22,7 @@
                 <form method="get" action="{{route('search')}}" role="search" class="pt-5 justify-content-center">
                     <div class="input-group custom-search-form">
                         <input type="text" class="form-control" name="search" placeholder="Search For The Car you want">
-                    <button class="btn btn-default-sm" type="submit">Search</button>
+                    <button class="btn btn-outline-dark" type="submit">Search</button>
                     </div>
                 </form>
             </div>
