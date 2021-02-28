@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbdf41f-b62f-41dd-8be7-d11dbe730d05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_02_25_080734_create_comments_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CarWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CarWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Comment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Car.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_25_080734_create_comments_table.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/cars/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -357,6 +354,20 @@
       <workItem from="1614255526825" duration="2029000" />
       <workItem from="1614257657362" duration="599000" />
       <workItem from="1614259732250" duration="599000" />
+      <workItem from="1614459303812" duration="759000" />
+      <workItem from="1614492735380" duration="1610000" />
+      <workItem from="1614494401951" duration="868000" />
+      <workItem from="1614496817576" duration="787000" />
+      <workItem from="1614500531124" duration="1674000" />
+      <workItem from="1614502645557" duration="598000" />
+      <workItem from="1614504663013" duration="599000" />
+      <workItem from="1614506525881" duration="599000" />
+      <workItem from="1614508352143" duration="599000" />
+      <workItem from="1614510167750" duration="1680000" />
+      <workItem from="1614511995481" duration="1786000" />
+      <workItem from="1614513813194" duration="1823000" />
+      <workItem from="1614515657624" duration="599000" />
+      <workItem from="1614517546117" duration="967000" />
     </task>
     <servers />
   </component>

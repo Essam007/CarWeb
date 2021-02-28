@@ -46,6 +46,7 @@ class CaroController extends Controller
             'price'=> $request -> price ,
             'model'=> $request -> model ,
             'details'=> $request -> details ,
+            'comment'=> $request ->comment ,
         ]);
         return redirect()->back()->with(['success' => 'The Car Has Been Added Successfully']);
     }
@@ -86,7 +87,7 @@ class CaroController extends Controller
         if (!$car)
             return redirect()->back();
 
-        $car = Car::select('id','name','model','price','details','photo')->find($car_id);
+        $car = Car::select('id','name','model','price','details')->find($car_id);
         return view('cars.edit', compact('car'));
     }
 
@@ -123,15 +124,17 @@ class CaroController extends Controller
 
     public function index(Request $request)
     {
+        $comments = $request->input('comment');
         $search = $request->input('search');
         $cars = Car::search($search)->get();
-        return view('searching', compact('cars', 'search'));
+        return view('searching', compact('cars', 'search' , 'comments'));
     }
 
     public function show($id)
     {
+        $comment = Comment::find($id);
         $car = Car::find($id);
-        return view('cars.show', compact('car'));
+        return view('cars.show', compact('car' , 'comment'));
     }
 
 }

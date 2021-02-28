@@ -24,7 +24,14 @@
             </div>
         </div>
     </div>
-    </div>
 </div>
 
+<div>
+    <form class="pt-5 justify-content-center">
+        <div class="input-group">
+            <input type="text" class="form-control" name="comment" placeholder="Type ur comment here">
+            <button class="btn btn-outline-success" type="submit">Add Comment</button>
+        </div>
+    </form>
+</div>
 @endsection
