@@ -46,3 +46,9 @@ Route::get('/cars/{car_id}', [App\Http\Controllers\CaroController::class, 'showC
 Route::get('/search', [App\Http\Controllers\CaroController::class, 'index'])->name('search');
 
 ##########################################
+
+Route::get('comments/create', [App\Http\Controllers\CommentController::class ,'create'])->name('comments.create');
+Route::post('comments', [App\Http\Controllers\CommentController::class ,'store'])->name('comments.store');
+
+Route::get('comments/index', [App\Http\Controllers\CommentController::class ,'index'])->name('comments.index');
+Route::get('comments/show/{comment_id}', [App\Http\Controllers\CommentController::class ,'show'])->name('comments.show');

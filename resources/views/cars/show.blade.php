@@ -26,12 +26,4 @@
     </div>
 </div>
 
-<div>
-    <form class="pt-5 justify-content-center">
-        <div class="input-group">
-            <input type="text" class="form-control" name="comment" placeholder="Type your comment here">
-            <button class="btn btn-outline-warning" type="submit">Add Comment</button>
-        </div>
-    </form>
-</div>
 @endsection

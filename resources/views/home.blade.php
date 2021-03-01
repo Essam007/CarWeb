@@ -25,6 +25,11 @@
                     <button class="btn btn-outline-dark" type="submit">Search</button>
                     </div>
                 </form>
+
+                <form method="get" action="{{route('comments.create')}}" class="d-flex pt-5">
+                    <button class="btn btn-primary" >Add Comments</button>
+                </form>
+
             </div>
         </div>
     </div>

@@ -4,14 +4,17 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Comment extends Model
 {
-    protected $table = 'comments';
-    protected $fillable = ['text'];
+    use SoftDeletes;
+
+    protected $dates = ['deleted_at'];
+    protected $fillable = ['username', 'body'];
 
     public function users()
     {
-        return $this->belongsTo(User::class);
+        return $this->hasMany(Comment::class);
     }
 }

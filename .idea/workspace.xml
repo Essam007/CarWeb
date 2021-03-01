@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbdf41f-b62f-41dd-8be7-d11dbe730d05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_03_01_103935_create_comments_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/comments/commentsDisplay.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/comments/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/comments/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/comments/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/cars/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,10 +170,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\CarWeb\resources\views\posts" />
+      <recent name="C:\xampp\htdocs\CarWeb\resources\views\post" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views\cars" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views\auth\admin" />
       <recent name="C:\xampp\htdocs\CarWeb\routes" />
-      <recent name="C:\xampp\htdocs\CarWeb\app\Http\Controllers\Auth" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\CarWeb\app\Http\Controllers\Auth" />
@@ -364,7 +374,23 @@
       <workItem from="1614513813194" duration="1823000" />
       <workItem from="1614515657624" duration="599000" />
       <workItem from="1614517546117" duration="1805000" />
-      <workItem from="1614519383658" duration="314000" />
+      <workItem from="1614519383658" duration="1056000" />
+      <workItem from="1614578109714" duration="1186000" />
+      <workItem from="1614579824760" duration="599000" />
+      <workItem from="1614581613664" duration="705000" />
+      <workItem from="1614583444900" duration="1784000" />
+      <workItem from="1614585260178" duration="1817000" />
+      <workItem from="1614587105374" duration="1775000" />
+      <workItem from="1614588920332" duration="1958000" />
+      <workItem from="1614590911724" duration="660000" />
+      <workItem from="1614592734042" duration="1788000" />
+      <workItem from="1614594548960" duration="1786000" />
+      <workItem from="1614596366575" duration="1782000" />
+      <workItem from="1614598178252" duration="1781000" />
+      <workItem from="1614599997431" duration="1783000" />
+      <workItem from="1614601810228" duration="1625000" />
+      <workItem from="1614603625031" duration="1016000" />
+      <workItem from="1614604671450" duration="1351000" />
     </task>
     <servers />
   </component>
