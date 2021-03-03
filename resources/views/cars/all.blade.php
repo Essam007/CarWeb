@@ -86,15 +86,12 @@
         </form>
     </div>
 </nav>
-<div>
-    <form method="get" action="{{route('search')}}" role="search">
-        <select class="browser-default custom-select" name="car" id="car">
-            <option selected>Select Car</option>
-            @foreach ($cars as $car)
-                <option value="{{ $car->id }}">{{ $car->name }}</option>
-            @endforeach
-        </select>
-        <button class="btn btn-primary" type="submit">Search</button>
+<div class="pb-5">
+    <form method="get" action="{{route('search')}}" role="search"  justify-content-center">
+        <div class="input-group custom-search-form">
+            <input type="text" class="form-control" name="search" placeholder="Search For The Car you want">
+            <button class="btn btn-success" type="submit">Search</button>
+        </div>
     </form>
 </div>
 

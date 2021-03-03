@@ -5,29 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbdf41f-b62f-41dd-8be7-d11dbe730d05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/cars/1614679823.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/cars/1614776139.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/cars/1614776297.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CarWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CarWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Comment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/cars/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/add.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/cars/all.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/all.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/cars/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/cars/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/comments/commentsDisplay.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/comments/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comments/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/comments/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comments/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/searching.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/searching.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -430,7 +411,8 @@
       <workItem from="1614770849013" duration="1785000" />
       <workItem from="1614772755180" duration="2261000" />
       <workItem from="1614775045872" duration="1790000" />
-      <workItem from="1614776867384" duration="404000" />
+      <workItem from="1614776867384" duration="1778000" />
+      <workItem from="1614778678595" duration="335000" />
     </task>
     <servers />
   </component>

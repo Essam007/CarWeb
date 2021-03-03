@@ -125,8 +125,8 @@ class CaroController extends Controller
 
     public function index(Request $request)
     {
-        $search = $request->input('car');
-        $cars = Car::where('id' , $search)->get();
+        $search = $request->input('search');
+        $cars = Car::search($search)->get();
         return view('searching', compact('cars', 'search'));
     }
 
