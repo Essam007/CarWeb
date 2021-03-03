@@ -5,18 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbdf41f-b62f-41dd-8be7-d11dbe730d05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_03_01_103935_create_comments_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/comments/commentsDisplay.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/comments/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/comments/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/comments/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cars/1614679823.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cars/1614776139.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cars/1614776297.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CarWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CarWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Comment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cars/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cars/all.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/all.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cars/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/cars/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/comments/commentsDisplay.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/comments/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comments/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/comments/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comments/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/searching.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/searching.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,6 +150,7 @@
       <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
       <path value="$PROJECT_DIR$/vendor/opis/closure" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
     </include_path>
   </component>
   <component name="ProjectId" id="1oKEVKlnmtQ6tHEE5IBi1doTHUf" />
@@ -157,7 +168,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/posts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -169,11 +180,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\CarWeb\resources\views" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views\posts" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views\post" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views\cars" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views\auth\admin" />
-      <recent name="C:\xampp\htdocs\CarWeb\routes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\CarWeb\app\Http\Controllers\Auth" />
@@ -390,7 +401,36 @@
       <workItem from="1614599997431" duration="1783000" />
       <workItem from="1614601810228" duration="1625000" />
       <workItem from="1614603625031" duration="1016000" />
-      <workItem from="1614604671450" duration="1351000" />
+      <workItem from="1614604671450" duration="1713000" />
+      <workItem from="1614664924111" duration="1621000" />
+      <workItem from="1614666588046" duration="1419000" />
+      <workItem from="1614668403103" duration="1382000" />
+      <workItem from="1614670225696" duration="1783000" />
+      <workItem from="1614672040224" duration="1777000" />
+      <workItem from="1614673868837" duration="1799000" />
+      <workItem from="1614675707262" duration="857000" />
+      <workItem from="1614678086838" duration="1785000" />
+      <workItem from="1614679917675" duration="1777000" />
+      <workItem from="1614681730571" duration="1695000" />
+      <workItem from="1614683548781" duration="1519000" />
+      <workItem from="1614685363935" duration="1788000" />
+      <workItem from="1614687180707" duration="1677000" />
+      <workItem from="1614688992712" duration="1766000" />
+      <workItem from="1614690996272" duration="1264000" />
+      <workItem from="1614751170504" duration="782000" />
+      <workItem from="1614752962313" duration="636000" />
+      <workItem from="1614754776051" duration="1778000" />
+      <workItem from="1614756589900" duration="1892000" />
+      <workItem from="1614758510282" duration="1783000" />
+      <workItem from="1614760323930" duration="1778000" />
+      <workItem from="1614762155350" duration="1676000" />
+      <workItem from="1614763970610" duration="1062000" />
+      <workItem from="1614765799665" duration="1783000" />
+      <workItem from="1614767613598" duration="943000" />
+      <workItem from="1614770849013" duration="1785000" />
+      <workItem from="1614772755180" duration="2261000" />
+      <workItem from="1614775045872" duration="1790000" />
+      <workItem from="1614776867384" duration="404000" />
     </task>
     <servers />
   </component>

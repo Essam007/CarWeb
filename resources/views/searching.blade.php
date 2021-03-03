@@ -39,7 +39,14 @@
             </div>
     </div>
 </div>
+
 <form method="get" action="{{route('home')}}" class="pt-5 pl-5">
-    <button class="btn btn-primary" >Go back</button>
+    <button class="btn btn-primary" >Home</button>
 </form>
+
+    <div class="pt-5 d-flex">
+        <form method="get" action="{{route('cars.all') }}" class="d-flex pl-5">
+            <button class="btn btn-primary top-right">Go Back</button>
+        </form>
+    </div>
 @endsection

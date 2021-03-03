@@ -22,6 +22,9 @@
                     <button class="btn btn-primary align-bottom">HOME</button>
                 </form>
             </div>
+            <form method="get" action="{{route('comments.create') }}" class="d-flex pt-5">
+                <button class="btn btn-primary align-bottom">Add Comments</button>
+            </form>
         </div>
     </div>
 </div>

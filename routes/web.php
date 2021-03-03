@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CityController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -26,7 +27,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/fillable', [App\Http\Controllers\CaroController::class, 'getCars']);
 
-#################
+##########################################
 
 Route::get('/cars/add', [App\Http\Controllers\CaroController::class, 'add'])->name('cars.add');
 
@@ -42,7 +43,8 @@ Route::get('/cars/delete/{car_id}', [App\Http\Controllers\CaroController::class,
 
 Route::get('/cars/{car_id}', [App\Http\Controllers\CaroController::class, 'showCar'])->name('cars.show');
 
-#################################
+##########################################
+
 Route::get('/search', [App\Http\Controllers\CaroController::class, 'index'])->name('search');
 
 ##########################################
@@ -52,3 +54,5 @@ Route::post('comments', [App\Http\Controllers\CommentController::class ,'store']
 
 Route::get('comments/index', [App\Http\Controllers\CommentController::class ,'index'])->name('comments.index');
 Route::get('comments/show/{comment_id}', [App\Http\Controllers\CommentController::class ,'show'])->name('comments.show');
+Route::get('/comments/delete/{comment_id}', [App\Http\Controllers\CommentController::class, 'deleteComment'])->name('$comments.delete');
+#####################

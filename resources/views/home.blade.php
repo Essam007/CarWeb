@@ -19,15 +19,15 @@
                     <button class="btn btn-primary" >Check The Cars</button>
                 </form>
 
-                <form method="get" action="{{route('search')}}" role="search" class="pt-5 justify-content-center">
-                    <div class="input-group custom-search-form">
-                        <input type="text" class="form-control" name="search" placeholder="Search For The Car you want">
-                    <button class="btn btn-outline-dark" type="submit">Search</button>
-                    </div>
-                </form>
+{{--                <form method="get" action="{{route('search')}}" role="search" class="pt-5 justify-content-center">--}}
+{{--                    <div class="input-group custom-search-form">--}}
+{{--                        <input type="text" class="form-control" name="search" placeholder="Search For The Car you want">--}}
+{{--                    <button class="btn btn-outline-dark" type="submit">Search</button>--}}
+{{--                    </div>--}}
+{{--                </form>--}}
 
-                <form method="get" action="{{route('comments.create')}}" class="d-flex pt-5">
-                    <button class="btn btn-primary" >Add Comments</button>
+                <form method="get" action="{{route('comments.index')}}" class="d-flex pt-5">
+                    <button class="btn btn-primary" >Check Comments</button>
                 </form>
 
             </div>

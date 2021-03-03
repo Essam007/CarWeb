@@ -11,6 +11,7 @@
                     <th width="80px">Id</th>
                     <th>UserName</th>
                     <th width="150px">Action</th>
+                    <th>Delete Comment</th>
                     </thead>
                     <tbody>
                     @foreach($comments as $comment)
@@ -19,6 +20,11 @@
                             <td>{{ $comment->username }}</td>
                             <td>
                                 <a href="{{ route('comments.show', $comment->id) }}" class="btn btn-primary">View Comment</a>
+                            </td>
+                            <td>
+                                <form method="get" action="{{route('$comments.delete',$comment->id)}}">
+                                    <button class="btn btn-danger">{{'delete'}}</button>
+                                </form>
                             </td>
                         </tr>
                     @endforeach

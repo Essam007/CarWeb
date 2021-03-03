@@ -22,6 +22,7 @@ class CaroController extends Controller
 
     public function add()
     {
+
         return view('cars.add');
     }
 
@@ -40,11 +41,12 @@ class CaroController extends Controller
         $path='images/cars';
         $request->photo->move($path,$file_name);
 
+
         Car::create([
             'photo'=> $file_name,
             'name'=> $request -> name ,
             'price'=> $request -> price ,
-            'model'=> $request -> model ,
+            'model'=> $request-> model ,
             'details'=> $request -> details ,
         ]);
         return redirect()->back()->with(['success' => 'The Car Has Been Added Successfully']);
@@ -123,8 +125,8 @@ class CaroController extends Controller
 
     public function index(Request $request)
     {
-        $search = $request->input('search');
-        $cars = Car::search($search)->get();
+        $search = $request->input('car');
+        $cars = Car::where('id' , $search)->get();
         return view('searching', compact('cars', 'search'));
     }
 

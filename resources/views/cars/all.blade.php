@@ -84,9 +84,19 @@
         <form method="get" action="{{route('home') }}" class="d-flex pb-5">
             <button class="btn btn-primary top-right">Home</button>
         </form>
-
     </div>
 </nav>
+<div>
+    <form method="get" action="{{route('search')}}" role="search">
+        <select class="browser-default custom-select" name="car" id="car">
+            <option selected>Select Car</option>
+            @foreach ($cars as $car)
+                <option value="{{ $car->id }}">{{ $car->name }}</option>
+            @endforeach
+        </select>
+        <button class="btn btn-primary" type="submit">Search</button>
+    </form>
+</div>
 
 <table class="table">
     <thead>

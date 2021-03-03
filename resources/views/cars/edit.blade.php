@@ -121,13 +121,17 @@
                 <small class="form-text text-danger">{{$message}}</small>
                 @enderror
             </div>
-
+            {{--                <input type="text" class="form-control" name="model" value="{{$car->model}}">--}}
+            {{--                @error('model')--}}
+            {{--                <small class="form-text text-danger">{{$message}}</small>--}}
+            {{--                @enderror--}}
             <div class="form-group">
                 <label for="exampleInputPassword1">THE MODEL</label>
-                <input type="text" class="form-control" name="model" value="{{$car->model}}">
-                @error('model')
-                <small class="form-text text-danger">{{$message}}</small>
-                @enderror
+                <select class="browser-default custom-select" name="model" id="model">
+                    <option selected>Select Model</option>
+                    <option value="{{ Form::selectYear('year', 1900, 2021) }}"></option>
+                </select>
+
             </div>
 
             <div class="form-group">
