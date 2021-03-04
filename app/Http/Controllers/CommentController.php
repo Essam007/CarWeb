@@ -16,7 +16,7 @@ class CommentController extends Controller
     public function index()
     {
         $comments = Comment::all();
-        return view('comments.index', compact('comments'));
+        return view('comments.index',compact('comments'));
     }
 
     public function create()
@@ -27,8 +27,8 @@ class CommentController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'username'=>'required',
-            'body'=>'required',
+            'username' => 'required' ,
+            'body' => 'required' ,
         ]);
 
         Comment::create($request->all());
@@ -37,15 +37,15 @@ class CommentController extends Controller
 
     public function show($id)
     {
-        $comment = Comment::find($id);
-        return view('comments.show', compact('comment'));
+        $comment=Comment::find($id);
+        return view('comments.show',compact('comment'));
     }
 
     public function deleteComment($comment_id)
     {
-        $comment = Comment::find($comment_id);
+        $comment=Comment::find($comment_id);
         if (!$comment)
-            return redirect()->back()->with(['error' => __('messages.car not exist')]);
+            return redirect()->back()->with(['error'=> __('messages.car not exist')]);
 
         $comment->delete();
         return redirect()

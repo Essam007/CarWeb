@@ -134,7 +134,7 @@
                 <label for="exampleInputPassword1">THE MODEL</label>
                 <select class="browser-default custom-select" name="model" id="model">
                     <option selected>Select Model</option>
-                    <option value="{{ Form::selectYear('year', 1900, 2021) }}"></option>
+                    <option value="{{Form::selectYear('year', 1900, 2021)}}"></option>
                 </select>
             </div>
 

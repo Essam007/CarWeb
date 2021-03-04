@@ -8,20 +8,19 @@
                     <table class="table">
                         <thead>
                         <tr>
-                            <th scope="col"></th>
+                            <th scope="col">#</th>
                             <th scope="col">Car Name</th>
                             <th scope="col">Car Price</th>
                             <th scope="col">Car Model</th>
                             <th scope="col">Car Details</th>
                             <th scope="col">Car Photo</th>
-
                         </tr>
                         </thead>
                         <tbody>
 
                         @foreach($cars as $car)
                             <tr>
-                                <th scope="row"></th>
+                                <th scope="row">{{$car->id}}</th>
                                 <td>{{$car->name}}</td>
                                 <td>{{$car->price}}</td>
                                 <td>{{$car->model}}</td>

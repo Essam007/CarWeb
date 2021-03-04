@@ -81,16 +81,16 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-        <form method="get" action="{{route('home') }}" class="d-flex pb-5">
+        <form method="get" action="{{route('home')}}" class="d-flex pb-5">
             <button class="btn btn-primary top-right">Home</button>
         </form>
     </div>
 </nav>
 <div class="pb-5">
-    <form method="get" action="{{route('search')}}" role="search"  justify-content-center">
+    <form method="get" action="{{route('search')}}" role="search">
         <div class="input-group custom-search-form">
             <input type="text" class="form-control" name="search" placeholder="Search For The Car you want">
-            <button class="btn btn-success" type="submit">Search</button>
+            <button class="btn btn-info" type="submit">Search</button>
         </div>
     </form>
 </div>

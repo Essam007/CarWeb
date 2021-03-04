@@ -6,11 +6,11 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-body">
-                        <h3 class="text-center text-success">Comments</h3>
+                        <h1 class="text-center text-success">Comment</h1>
                         <br/>
-                        <h2>{{ $comment->username }}</h2>
+                        <h3>{{$comment->username}}</h3>
                         <br/>
-                        <p>{{ $comment->body }}</p>
+                        <p>{{$comment->body}}</p>
                     </div>
                 </div>
             </div>
@@ -23,7 +23,7 @@
 </div>
 <div class="pl-5">
     <form method="get" action="{{route('comments.index') }}" class="d-flex pt-5">
-        <button class="btn btn-primary align-bottom">Check All Comments</button>
+        <button class="btn btn-primary align-bottom">Check All The Comments</button>
     </form>
 </div>
 @endsection

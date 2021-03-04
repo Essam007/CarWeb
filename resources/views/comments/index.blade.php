@@ -4,8 +4,8 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12">
-                <h1>Manage Comment</h1>
-                <a href="{{ route('comments.create') }}" class="btn btn-success" style="float: right">Create Comment</a>
+                <h1>Manage Comments</h1>
+                <a href="{{ route('comments.create') }}" class="btn btn-success" style="float: right">Write New Comment</a>
                 <table class="table table-bordered">
                     <thead>
                     <th width="80px">Id</th>
@@ -29,7 +29,6 @@
                         </tr>
                     @endforeach
                     </tbody>
-
                 </table>
             </div>
         </div>
