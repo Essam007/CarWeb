@@ -10,11 +10,11 @@
                         <form method="post" action="{{route('comments.store')}}">
                             <div class="form-group">
                                 @csrf
-                                <label class="label"><h4>User Name</h4> </label>
+                                <label class="label"><h4>User Name :</h4> </label>
                                 <input type="text" name="username" class="form-control" required/>
                             </div>
                             <div class="form-group">
-                                <label class="label"><h4>Comment Body</h4></label>
+                                <label class="label"><h4>Comment Body :</h4></label>
                                 <textarea name="body" rows="10" cols="30" class="form-control" required></textarea>
                             </div>
                             <div class="form-group">
