@@ -23,6 +23,10 @@
                     <button class="btn btn-primary" >Check Comments</button>
                 </form>
 
+                <form method="get" action="{{route('branshis.cityis')}}" class="d-flex pt-5">
+                    <button class="btn btn-primary" >Citys and Branshs</button>
+                </form>
+
             </div>
         </div>
     </div>

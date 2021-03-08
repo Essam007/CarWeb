@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Bransh extends Model
+{
+    protected $table ='branshs';
+    protected $fillable = ['name','adress','city_id'];
+    public $timestamp = true;
+
+    public function citis()
+    {
+        return $this->belongsTo(City::class , 'city_id');
+    }
+
+    public function mangers()
+    {
+        return $this->hasOne(Maneger::class , 'bransh_id');
+    }
+
+}

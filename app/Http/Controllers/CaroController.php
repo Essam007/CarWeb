@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Bransh;
 use App\Models\Car;
+use App\Models\City;
 use App\Models\Comment;
+use App\Models\Maneger;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
@@ -134,6 +137,79 @@ class CaroController extends Controller
     {
         $car = Car::find($id);
         return view('cars.show', compact('car'));
+    }
+
+    #############################
+
+//    public function getCityBranshes()
+//    {
+//        $citys = City::with('branshes')->find(1);
+//
+//        $branshes= $citys->branshes;
+//        foreach ($branshes as $bransh) {
+//            echo ($bransh->name) . '<br>';
+//            echo ($bransh->adress) . '<br>';
+//        }
+//    }
+
+    public function citis()
+    {
+        $citys = City::select('id' , 'name')->get();
+        return view('branshis.cityis' , compact('citys'));
+    }
+
+    public function branshis($city_id)
+    {
+        $city = City::find($city_id);
+        $branshes= $city->branshes;
+        return view('branshis.branshies' , compact('branshes'));
+    }
+
+    public function deletecity($city_id)
+    {
+        $citys = City::find($city_id);
+        if (!$citys)
+            return redirect()->back()->with(['error' => __('messages.car not exist')]);
+
+        $citys->delete();
+        return redirect()
+            ->route('branshis.cityis');
+    }
+
+    public function deletebransh($bransh_id)
+    {
+        $branshs = Bransh::find($bransh_id);
+        if (!$branshs)
+            return redirect()->back()->with(['error' => __('messages.car not exist')]);
+
+        $branshs->delete();
+        return redirect()
+            ->route('branshis.branshies');
+    }
+
+    ############
+//    public function mang()
+//    {
+//        $manga = Maneger::select('id','name')->get();
+//        return view('',compact('manga'));
+//    }
+
+    public function man($bransh_id)
+    {
+        $bran = Bransh::find($bransh_id);
+        $cman = $bran->cman;
+        return view('branshis.mangers', compact('cman'));
+    }
+
+    public function deleteMang($maneger_id)
+    {
+        $manegers = Maneger::find($maneger_id);
+        if (!$manegers)
+            return redirect()->back()->with(['error' => __('messages.car not exist')]);
+
+        $manegers->delete();
+        return redirect()
+            ->route('maneger.delete');
     }
 
 }

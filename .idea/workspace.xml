@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbdf41f-b62f-41dd-8be7-d11dbe730d05" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Models/Bransh.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/City.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Maneger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_03_08_104651_create_manegers_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cars/1615116667.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cars/1615116692.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cars/1615116900.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/branshis/branshies.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/branshis/cityis.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/branshis/mangers.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/comments/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comments/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +159,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/branshis" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -159,11 +171,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\CarWeb\resources\views\branshis" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views\posts" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views\post" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views\cars" />
-      <recent name="C:\xampp\htdocs\CarWeb\resources\views\auth\admin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\CarWeb\app\Http\Controllers\Auth" />
@@ -425,7 +437,38 @@
       <workItem from="1614858229063" duration="1662000" />
       <workItem from="1614860044918" duration="878000" />
       <workItem from="1614862362040" duration="2008000" />
-      <workItem from="1614864394673" duration="645000" />
+      <workItem from="1614864394673" duration="732000" />
+      <workItem from="1615096989312" duration="1487000" />
+      <workItem from="1615098677550" duration="1789000" />
+      <workItem from="1615100490800" duration="1793000" />
+      <workItem from="1615102313937" duration="1782000" />
+      <workItem from="1615104131012" duration="1489000" />
+      <workItem from="1615105939411" duration="1313000" />
+      <workItem from="1615107860472" duration="599000" />
+      <workItem from="1615109764482" duration="999000" />
+      <workItem from="1615111601351" duration="1469000" />
+      <workItem from="1615113419373" duration="1789000" />
+      <workItem from="1615115231035" duration="1789000" />
+      <workItem from="1615117046226" duration="1631000" />
+      <workItem from="1615118859549" duration="1616000" />
+      <workItem from="1615120682852" duration="599000" />
+      <workItem from="1615123045593" duration="1212000" />
+      <workItem from="1615125572355" duration="59000" />
+      <workItem from="1615184382666" duration="1695000" />
+      <workItem from="1615186196780" duration="1788000" />
+      <workItem from="1615188013600" duration="1787000" />
+      <workItem from="1615189827558" duration="1464000" />
+      <workItem from="1615191645240" duration="1704000" />
+      <workItem from="1615193457478" duration="1084000" />
+      <workItem from="1615195326459" duration="1198000" />
+      <workItem from="1615197143375" duration="1659000" />
+      <workItem from="1615198957744" duration="1786000" />
+      <workItem from="1615200998845" duration="1780000" />
+      <workItem from="1615202814074" duration="1787000" />
+      <workItem from="1615204629312" duration="899000" />
+      <workItem from="1615206447646" duration="1504000" />
+      <workItem from="1615208265815" duration="1785000" />
+      <workItem from="1615210076562" duration="725000" />
     </task>
     <servers />
   </component>

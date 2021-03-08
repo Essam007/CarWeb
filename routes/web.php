@@ -55,3 +55,17 @@ Route::get('comments/index', [App\Http\Controllers\CommentController::class ,'in
 Route::get('comments/show/{comment_id}', [App\Http\Controllers\CommentController::class ,'show'])->name('comments.show');
 Route::get('/comments/delete/{comment_id}', [App\Http\Controllers\CommentController::class, 'deleteComment'])->name('$comments.delete');
 #####################
+
+//Route::get('city-has-many', [App\Http\Controllers\CaroController::class, 'getCityBranshes']);
+
+Route::get('citys', [App\Http\Controllers\CaroController::class, 'citis'])->name('branshis.cityis');
+
+Route::get('branshes/{city_id}', [App\Http\Controllers\CaroController::class, 'branshis'])->name('city.branshs');
+
+Route::get('/citys/delete/{city_id}', [App\Http\Controllers\CaroController::class, 'deletecity'])->name('citys.delete');
+
+Route::get('/branshs/delete/{city_id}', [App\Http\Controllers\CaroController::class, 'deletebransh'])->name('bransh.delete');
+
+Route::get('mangers/{bransh_id}', [App\Http\Controllers\CaroController::class, 'man'])->name('branshis.mangers');
+
+Route::get('/managers/delete/{manager_id}', [App\Http\Controllers\CaroController::class, 'deleteMang'])->name('manager.delete');
