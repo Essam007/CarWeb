@@ -16,7 +16,7 @@ class CreateManegersTable extends Migration
         Schema::create('manegers', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->integer('bransh_id');
+            $table->integer('bransho_id');
             $table->timestamps();
         });
     }

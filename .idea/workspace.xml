@@ -5,18 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbdf41f-b62f-41dd-8be7-d11dbe730d05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Models/Bransh.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/City.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Maneger.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_03_08_104651_create_manegers_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/cars/1615116667.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/cars/1615116692.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/cars/1615116900.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/branshis/branshies.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/branshis/cityis.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/branshis/mangers.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Employee.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/managers/employes.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Bransh.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Bransh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Maneger.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Maneger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_08_104651_create_manegers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_08_104651_create_manegers_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/branshis/branshies.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/branshis/branshies.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/branshis/cityis.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/branshis/cityis.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/branshis/mangers.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/managers/mangers.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -159,7 +157,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/branshis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/managers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -171,13 +169,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\CarWeb\resources\views\managers" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views\branshis" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views\posts" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views\post" />
-      <recent name="C:\xampp\htdocs\CarWeb\resources\views\cars" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\CarWeb\resources\views\managers" />
       <recent name="C:\xampp\htdocs\CarWeb\app\Http\Controllers\Auth" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views" />
     </key>
@@ -468,7 +467,22 @@
       <workItem from="1615204629312" duration="899000" />
       <workItem from="1615206447646" duration="1504000" />
       <workItem from="1615208265815" duration="1785000" />
-      <workItem from="1615210076562" duration="725000" />
+      <workItem from="1615210076562" duration="1479000" />
+      <workItem from="1615270430943" duration="1295000" />
+      <workItem from="1615272069294" duration="1754000" />
+      <workItem from="1615273883893" duration="1787000" />
+      <workItem from="1615275694178" duration="1976000" />
+      <workItem from="1615278115071" duration="1791000" />
+      <workItem from="1615279930076" duration="1901000" />
+      <workItem from="1615281860383" duration="598000" />
+      <workItem from="1615283752993" duration="1789000" />
+      <workItem from="1615285571954" duration="1791000" />
+      <workItem from="1615287386321" duration="1774000" />
+      <workItem from="1615289198690" duration="1788000" />
+      <workItem from="1615291010611" duration="1426000" />
+      <workItem from="1615292828279" duration="1779000" />
+      <workItem from="1615294644004" duration="1586000" />
+      <workItem from="1615296476390" duration="1329000" />
     </task>
     <servers />
   </component>

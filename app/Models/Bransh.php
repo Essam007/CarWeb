@@ -16,9 +16,4 @@ class Bransh extends Model
         return $this->belongsTo(City::class , 'city_id');
     }
 
-    public function mangers()
-    {
-        return $this->hasOne(Maneger::class , 'bransh_id');
-    }
-
 }

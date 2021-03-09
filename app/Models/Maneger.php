@@ -8,11 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Maneger extends Model
 {
     protected $table ='manegers';
-    protected $fillable = ['name','bransh_id'];
+    protected $fillable = ['name'];
     public $timestamp = true;
 
-    public function branshs()
+    public function employes()
     {
-        return $this->belongsTo(Bransh::class , 'bransh_id');
+        return $this->hasMany(Employee::class ,'maneger_id');
     }
 }

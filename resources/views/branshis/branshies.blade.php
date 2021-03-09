@@ -32,12 +32,10 @@
                                 <td>{{$bransh -> name}}</td>
                                 <td>{{$bransh -> adress}}</td>
                                 <td>
-                                    <form method="get" action="{{route('branshis.mangers', $bransh -> id)}}" class="d-flex">
-                                        <button class="btn btn-primary" >Check</button>
-                                    </form>
+                                    <a href="{{route('managers.mangers')}}" class="btn btn-success">mangers</a>
                                 </td>
                                 <td>
-                                    <a href="{{route('bransh.delete',$bransh -> id)}}" class="btn btn-danger">Delete</a>
+                                    <a href="{{route('bransh.delete',$bransh->id)}}" class="btn btn-danger">Delete</a>
                                 </td>
                                 <td>
                                     <form method="get" action="{{route('cars.all')}}" class="d-flex">

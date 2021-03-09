@@ -6,6 +6,7 @@ use App\Models\Bransh;
 use App\Models\Car;
 use App\Models\City;
 use App\Models\Comment;
+use App\Models\Employee;
 use App\Models\Maneger;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
@@ -188,28 +189,40 @@ class CaroController extends Controller
     }
 
     ############
-//    public function mang()
-//    {
-//        $manga = Maneger::select('id','name')->get();
-//        return view('',compact('manga'));
-//    }
 
-    public function man($bransh_id)
+    public function mangers()
     {
-        $bran = Bransh::find($bransh_id);
-        $cman = $bran->cman;
-        return view('branshis.mangers', compact('cman'));
+        $mango = Maneger::select('id', 'name')->get();
+        return view('managers.mangers', compact('mango'));
+    }
+
+    public function employee($maneger_id)
+    {
+        $manegers = Maneger::find($maneger_id);
+        $employes= $manegers->employes;
+        return view('managers.employes' , compact('employes'));
     }
 
     public function deleteMang($maneger_id)
     {
-        $manegers = Maneger::find($maneger_id);
-        if (!$manegers)
+        $maneger = Maneger::find($maneger_id);
+        if (!$maneger)
             return redirect()->back()->with(['error' => __('messages.car not exist')]);
 
-        $manegers->delete();
+        $maneger->delete();
         return redirect()
             ->route('maneger.delete');
+    }
+
+    public function deleteemploye($employee_id)
+    {
+        $employee = Employee::find($employee_id);
+        if (!$employee)
+            return redirect()->back()->with(['error' => __('messages.car not exist')]);
+
+        $employee->delete();
+        return redirect()
+            ->route('employee.delete');
     }
 
 }

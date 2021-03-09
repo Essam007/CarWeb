@@ -64,8 +64,12 @@ Route::get('branshes/{city_id}', [App\Http\Controllers\CaroController::class, 'b
 
 Route::get('/citys/delete/{city_id}', [App\Http\Controllers\CaroController::class, 'deletecity'])->name('citys.delete');
 
-Route::get('/branshs/delete/{city_id}', [App\Http\Controllers\CaroController::class, 'deletebransh'])->name('bransh.delete');
+Route::get('/branshs/delete/{bransh_id}', [App\Http\Controllers\CaroController::class, 'deletebransh'])->name('bransh.delete');
+#########
+Route::get('mango', [App\Http\Controllers\CaroController::class, 'mangers'])->name('managers.mangers');
 
-Route::get('mangers/{bransh_id}', [App\Http\Controllers\CaroController::class, 'man'])->name('branshis.mangers');
+Route::get('employes/{maneger_id}', [App\Http\Controllers\CaroController::class, 'employee'])->name('managers.employees');
 
-Route::get('/managers/delete/{manager_id}', [App\Http\Controllers\CaroController::class, 'deleteMang'])->name('manager.delete');
+Route::get('/manegers/delete/{maneger_id}', [App\Http\Controllers\CaroController::class, 'deleteMang'])->name('manager.delete');
+
+Route::get('/employee/delete/{employee_id}', [App\Http\Controllers\CaroController::class, 'deleteemploye'])->name('employee.delete');

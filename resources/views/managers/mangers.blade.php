@@ -17,17 +17,21 @@
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">name</th>
+                        <th scope="col">employees</th>
                         <th scope="col">operation</th>
 
                     </tr>
                     </thead>
                     <tbody>
 
-                    @if(isset($cman) && $cman -> count() > 0 )
-                        @foreach($cman as $manager)
+                    @if(isset($mango) && $mango -> count() > 0 )
+                        @foreach($mango as $manager)
                             <tr>
                                 <th scope="row">{{$manager->id}}</th>
                                 <td>{{$manager->name}}</td>
+                                <td>
+                                    <a href="{{route('managers.employees',$manager->id)}}" class="btn btn-success">Show Employees</a>
+                                </td>
                                 <td>
                                     <a href="{{route('manager.delete', $manager->id)}}" class="btn btn-danger">Delete</a>
                                 </td>
