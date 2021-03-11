@@ -40,7 +40,7 @@
 </div>
 
 <form method="get" action="{{route('home')}}" class="pt-5 pl-5">
-    <button class="btn btn-primary" >Home</button>
+    <button class="btn btn-primary">Home</button>
 </form>
 
     <div class="pt-5 d-flex">

@@ -19,7 +19,6 @@
                         <th scope="col">name</th>
                         <th scope="col">Position</th>
                         <th scope="col">operation</th>
-
                     </tr>
                     </thead>
                     <tbody>
@@ -39,8 +38,6 @@
 
                     </tbody>
                 </table>
-
-
             </div>
         </div>
     </div>

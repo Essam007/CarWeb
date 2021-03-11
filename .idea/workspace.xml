@@ -5,17 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbdf41f-b62f-41dd-8be7-d11dbe730d05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Models/Employee.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/managers/employes.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Bransh.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Bransh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/City.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Maneger.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Maneger.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_08_104651_create_manegers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_08_104651_create_manegers_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/branshis/branshies.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/branshis/branshies.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/branshis/cityis.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/branshis/cityis.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/branshis/mangers.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/managers/mangers.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/managers/employes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/managers/employes.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/managers/mangers.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/managers/mangers.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/searching.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/searching.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -482,7 +484,29 @@
       <workItem from="1615291010611" duration="1426000" />
       <workItem from="1615292828279" duration="1779000" />
       <workItem from="1615294644004" duration="1586000" />
-      <workItem from="1615296476390" duration="1329000" />
+      <workItem from="1615296476390" duration="1710000" />
+      <workItem from="1615357185477" duration="590000" />
+      <workItem from="1615358954618" duration="1553000" />
+      <workItem from="1615360763200" duration="809000" />
+      <workItem from="1615362589235" duration="1386000" />
+      <workItem from="1615364711047" duration="599000" />
+      <workItem from="1615366526418" duration="598000" />
+      <workItem from="1615368697787" duration="599000" />
+      <workItem from="1615443141368" duration="565000" />
+      <workItem from="1615444823437" duration="1198000" />
+      <workItem from="1615446636543" duration="1663000" />
+      <workItem from="1615448450910" duration="1787000" />
+      <workItem from="1615450269909" duration="1673000" />
+      <workItem from="1615452491517" duration="2093000" />
+      <workItem from="1615454727701" duration="963000" />
+      <workItem from="1615456539498" duration="1786000" />
+      <workItem from="1615458353357" duration="1568000" />
+      <workItem from="1615460177077" duration="1427000" />
+      <workItem from="1615462062383" duration="1250000" />
+      <workItem from="1615463909785" duration="1501000" />
+      <workItem from="1615465759098" duration="1740000" />
+      <workItem from="1615467570403" duration="1791000" />
+      <workItem from="1615469384917" duration="812000" />
     </task>
     <servers />
   </component>

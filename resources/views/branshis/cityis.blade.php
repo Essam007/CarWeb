@@ -17,19 +17,19 @@
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">Name</th>
-                        <th scope="col">Branshes</th>
+                        <th scope="col">Branches</th>
                         <th scope="col">Procedures</th>
                     </tr>
                     </thead>
                     <tbody>
 
-                    @if(isset($citys) && $citys -> count() > 0 )
+                    @if(isset($citys) && $citys -> count() > 0)
                         @foreach($citys as $city)
                             <tr>
                                 <th scope="row">{{$city -> id}}</th>
                                 <td>{{$city -> name}}</td>
                                 <td>
-                                    <a href="{{route('city.branshs',$city->id)}}" class="btn btn-success">Show Branshes</a>
+                                    <a href="{{route('city.branshs',$city->id)}}" class="btn btn-success">Show Branches</a>
                                 </td>
                                 <td>
                                     <a href="{{route('citys.delete',$city->id)}}" class="btn btn-danger">Delete</a>

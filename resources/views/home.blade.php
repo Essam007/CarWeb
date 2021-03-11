@@ -16,15 +16,19 @@
                     <button class="btn btn-primary">Add Car</button>
                 </form>
                 <form method="get" action="{{route('cars.all')}}" class="d-flex pt-5">
-                    <button class="btn btn-primary" >Check The Cars</button>
+                    <button class="btn btn-primary">Check Cars</button>
                 </form>
 
                 <form method="get" action="{{route('comments.index')}}" class="d-flex pt-5">
-                    <button class="btn btn-primary" >Check Comments</button>
+                    <button class="btn btn-primary">Check Comments</button>
                 </form>
 
                 <form method="get" action="{{route('branshis.cityis')}}" class="d-flex pt-5">
-                    <button class="btn btn-primary" >Citys</button>
+                    <button class="btn btn-primary">Citys</button>
+                </form>
+
+                <form method="get" action="{{route('managers.mangers')}}" class="d-flex pt-5">
+                    <button class="btn btn-primary">Managers</button>
                 </form>
 
             </div>

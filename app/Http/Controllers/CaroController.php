@@ -192,15 +192,15 @@ class CaroController extends Controller
 
     public function mangers()
     {
-        $mango = Maneger::select('id', 'name')->get();
+        $mango = Maneger::select('id','name')->get();
         return view('managers.mangers', compact('mango'));
     }
 
     public function employee($maneger_id)
     {
         $manegers = Maneger::find($maneger_id);
-        $employes= $manegers->employes;
-        return view('managers.employes' , compact('employes'));
+        $employes = $manegers->employes;
+        return view('managers.employes', compact('employes'));
     }
 
     public function deleteMang($maneger_id)

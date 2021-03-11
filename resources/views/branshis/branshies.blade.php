@@ -2,7 +2,6 @@
 @section('content')
     <div class="container">
 
-
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="title m-b-md">
@@ -18,7 +17,6 @@
                         <th scope="col">#</th>
                         <th scope="col">name</th>
                         <th scope="col">Address</th>
-                        <th scope="col">Mangers</th>
                         <th scope="col">operation</th>
                         <th scope="col">Bransh Cars</th>
                     </tr>
@@ -28,18 +26,15 @@
                     @if(isset($branshes) && $branshes -> count() > 0 )
                         @foreach($branshes as $bransh)
                             <tr>
-                                <th scope="row">{{$bransh -> id}}</th>
-                                <td>{{$bransh -> name}}</td>
-                                <td>{{$bransh -> adress}}</td>
-                                <td>
-                                    <a href="{{route('managers.mangers')}}" class="btn btn-success">mangers</a>
-                                </td>
+                                <th scope="row">{{$bransh->id}}</th>
+                                <td>{{$bransh->name}}</td>
+                                <td>{{$bransh->adress}}</td>
                                 <td>
                                     <a href="{{route('bransh.delete',$bransh->id)}}" class="btn btn-danger">Delete</a>
                                 </td>
                                 <td>
                                     <form method="get" action="{{route('cars.all')}}" class="d-flex">
-                                        <button class="btn btn-primary" >Check</button>
+                                        <button class="btn btn-primary">Check</button>
                                     </form>
                                 </td>
                             </tr>
@@ -53,4 +48,7 @@
             </div>
         </div>
     </div>
+    <form method="get" action="{{route('home')}}" class="pt-5 pl-5">
+        <button class="btn btn-primary" >Home</button>
+    </form>
 @stop

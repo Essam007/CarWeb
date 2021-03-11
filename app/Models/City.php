@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class City extends Model
@@ -13,7 +12,7 @@ class City extends Model
 
     public function branshes()
     {
-        return $this->hasMany(Bransh::class , 'city_id');
+        return $this->hasMany(Bransh::class ,'city_id');
     }
 
 }
