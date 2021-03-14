@@ -15,4 +15,5 @@ class Car extends Model
     {
         return $query->where('name', 'like', '%' .$search. '%');
     }
+
 }

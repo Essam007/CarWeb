@@ -8,7 +8,6 @@
                 <div class="title m-b-md">
                     Managers
                 </div>
-
                 <br>
                 <table class="table">
                     <thead>

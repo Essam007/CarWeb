@@ -15,5 +15,4 @@ class Employee extends Model
     {
         return $this->belongsTo(Maneger::class , 'maneger_id');
     }
-
 }

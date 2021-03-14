@@ -23,7 +23,7 @@
 </div>
 <div class="pl-5">
     <form method="get" action="{{route('comments.index') }}" class="d-flex pt-5">
-        <button class="btn btn-primary align-bottom">Check All The Comments</button>
+        <button class="btn btn-primary align-bottom">Check The Comments</button>
     </form>
 </div>
 @endsection

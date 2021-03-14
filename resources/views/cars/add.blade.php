@@ -125,11 +125,6 @@
                 @enderror
             </div>
 
-{{--            {{ Form::selectYear('year', 1900, 2021) }}--}}
-{{--            <input type="text" class="form-control" name="model" placeholder="model of the car">--}}
-            {{--                @error('model')--}}
-            {{--                <small class="form-text text-danger">{{$message}}</small>--}}
-            {{--                @enderror--}}
             <div class="form-group">
                 <label for="exampleInputPassword1">THE MODEL</label>
                 <select class="browser-default custom-select" name="model" id="model">
