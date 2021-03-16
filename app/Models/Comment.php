@@ -10,11 +10,13 @@ class Comment extends Model
     use SoftDeletes;
 
     protected $dates = ['deleted_at'];
-    protected $fillable = ['username','body'];
+    protected $table='comments';
+    protected $fillable = ['body','user_id'];
+    public $timestamp = true;
 
     public function users()
     {
-        return $this->hasMany(Comment::class);
+        return $this->hasMany(Comment::class , 'user_id');
     }
 
 }

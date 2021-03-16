@@ -48,11 +48,14 @@ Route::get('/search', [App\Http\Controllers\CaroController::class, 'index'])->na
 ##########################################
 
 Route::get('comments/create', [App\Http\Controllers\CommentController::class ,'create'])->name('comments.create');
-Route::post('comments', [App\Http\Controllers\CommentController::class ,'store'])->name('comments.store');
+Route::post('comments/store', [App\Http\Controllers\CommentController::class ,'store'])->name('comments.store');
+
+Route::get('comments/users', [App\Http\Controllers\CommentController::class ,'users'])->name('comments.users');
 
 Route::get('comments/index', [App\Http\Controllers\CommentController::class ,'index'])->name('comments.index');
 Route::get('comments/show/{comment_id}', [App\Http\Controllers\CommentController::class ,'show'])->name('comments.show');
 Route::get('/comments/delete/{comment_id}', [App\Http\Controllers\CommentController::class, 'deleteComment'])->name('$comments.delete');
+
 #####################
 
 //Route::get('city-has-many', [App\Http\Controllers\CaroController::class, 'getCityBranshes']);
@@ -64,11 +67,26 @@ Route::get('branshes/{city_id}', [App\Http\Controllers\CaroController::class, 'b
 Route::get('/citys/delete/{city_id}', [App\Http\Controllers\CaroController::class, 'deletecity'])->name('citys.delete');
 
 Route::get('/branshs/delete/{bransh_id}', [App\Http\Controllers\CaroController::class, 'deletebransh'])->name('bransh.delete');
-########
+#################################
 Route::get('mango', [App\Http\Controllers\CaroController::class, 'mangers'])->name('managers.mangers');
 
 Route::get('employes/{maneger_id}', [App\Http\Controllers\CaroController::class, 'employee'])->name('managers.employees');
 
+Route::get('managers/addm', [App\Http\Controllers\ManagerController::class, 'added'])->name('manager.add');
+Route::post('/managers/store', [App\Http\Controllers\ManagerController::class, 'store'])->name('manager.store');
+
+Route::get('employee/adde', [App\Http\Controllers\EmployeeController::class, 'add'])->name('employee.add');
+Route::post('/employee/store', [App\Http\Controllers\EmployeeController::class, 'store'])->name('employee.store');
+
+
 Route::get('/manegers/delete/{maneger_id}', [App\Http\Controllers\CaroController::class, 'deleteMang'])->name('manager.delete');
 
 Route::get('/employee/delete/{employee_id}', [App\Http\Controllers\CaroController::class, 'deleteemploye'])->name('employee.delete');
+##################################
+Route::get('/city/add', [App\Http\Controllers\CityController::class, 'added'])->name('city.add');
+
+Route::post('/city/store', [App\Http\Controllers\CityController::class, 'store'])->name('city.store');
+##################################
+Route::get('/branch/add', [App\Http\Controllers\BranchController::class, 'added'])->name('branch.add');
+
+Route::post('/branch/store', [App\Http\Controllers\BranchController::class, 'store'])->name('branch.store');

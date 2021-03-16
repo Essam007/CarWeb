@@ -8,7 +8,7 @@
                     <div class="card-body">
                         <h1 class="text-center text-success">Comment</h1>
                         <br/>
-                        <h3>{{$comment->username}}</h3>
+                        <h3>{{$comment->user_id}}</h3>
                         <br/>
                         <p>{{$comment->body}}</p>
                     </div>

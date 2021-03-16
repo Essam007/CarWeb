@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Comment;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class CommentController extends Controller
@@ -27,12 +28,24 @@ class CommentController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'username' => 'required' ,
-            'body' => 'required' ,
+            'body' => 'required',
         ]);
 
         Comment::create($request->all());
         return redirect()->route('comments.index');
+    }
+
+    public function users()
+    {
+        $users = User::select('id','name')->get();
+        return view('comments.users',compact('users'));
+    }
+
+    public function comments($user_id)
+    {
+        $users = User::find($user_id);
+        $commenter = $users->commenter;
+        return view('comments.index',compact('commenter'));
     }
 
     public function show($id)

@@ -5,9 +5,12 @@
 
         <div class="flex-center position-ref full-height">
             <div class="content">
-                <div class="title m-b-md">
+                <h2 class="title m-b-md">
                     Citys
-                </div>
+                </h2>
+                <form method="get" action="{{route('city.add') }}" class="d-flex pt-2">
+                    <button class="btn btn-primary align-bottom">Add New City</button>
+                </form>
 
                 <br>
 

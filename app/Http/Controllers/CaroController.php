@@ -45,7 +45,6 @@ class CaroController extends Controller
         $path='images/cars';
         $request->photo->move($path,$file_name);
 
-
         Car::create([
             'photo' => $file_name ,
             'name' => $request -> name ,
@@ -142,16 +141,6 @@ class CaroController extends Controller
 
     #############################
 
-//    public function getCityBranshes()
-//    {
-//        $citys = City::with('branshes')->find(1);
-//
-//        $branshes= $citys->branshes;
-//        foreach ($branshes as $bransh) {
-//            echo ($bransh->name) . '<br>';
-//            echo ($bransh->adress) . '<br>';
-//        }
-//    }
 
     public function citis()
     {
@@ -165,6 +154,7 @@ class CaroController extends Controller
         $branshes= $city->branshes;
         return view('branshis.branshies' , compact('branshes'));
     }
+
 
     public function deletecity($city_id)
     {
