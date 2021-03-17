@@ -50,12 +50,11 @@ Route::get('/search', [App\Http\Controllers\CaroController::class, 'index'])->na
 Route::get('comments/create', [App\Http\Controllers\CommentController::class ,'create'])->name('comments.create');
 Route::post('comments/store', [App\Http\Controllers\CommentController::class ,'store'])->name('comments.store');
 
-Route::get('comments/users', [App\Http\Controllers\CommentController::class ,'users'])->name('comments.users');
-
 Route::get('comments/index', [App\Http\Controllers\CommentController::class ,'index'])->name('comments.index');
 Route::get('comments/show/{comment_id}', [App\Http\Controllers\CommentController::class ,'show'])->name('comments.show');
 Route::get('/comments/delete/{comment_id}', [App\Http\Controllers\CommentController::class, 'deleteComment'])->name('$comments.delete');
 
+Route::get('comments/searching', [App\Http\Controllers\CommentController::class, 'indexes'])->name('search');
 #####################
 
 //Route::get('city-has-many', [App\Http\Controllers\CaroController::class, 'getCityBranshes']);

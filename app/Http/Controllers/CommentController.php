@@ -31,15 +31,14 @@ class CommentController extends Controller
             'body' => 'required',
         ]);
 
-        Comment::create($request->all());
+        $input = $request->all();
+        $input['user_id'] = auth()->user()->id;
+
+        Comment::create($input);
         return redirect()->route('comments.index');
     }
 
-    public function users()
-    {
-        $users = User::select('id','name')->get();
-        return view('comments.users',compact('users'));
-    }
+
 
     public function comments($user_id)
     {

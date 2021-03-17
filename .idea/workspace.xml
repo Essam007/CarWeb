@@ -5,28 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbdf41f-b62f-41dd-8be7-d11dbe730d05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BranchController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CityController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/EmployeeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ManagerController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/branshis/addb.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/branshis/addc.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/comments/users.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/managers/adde.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/managers/addm.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/comments/searching.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Bransh.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Bransh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/City.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Employee.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Employee.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Maneger.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Maneger.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_01_103935_create_comments_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_03_01_103935_create_comments_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/branshis/branshies.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/branshis/branshies.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/branshis/cityis.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/branshis/cityis.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/comments/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comments/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/comments/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comments/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/comments/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comments/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/managers/employes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/managers/employes.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/managers/mangers.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/managers/mangers.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/comments/users.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +159,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/managers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/comments" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -180,8 +171,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\CarWeb\resources\views\managers" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views\comments" />
+      <recent name="C:\xampp\htdocs\CarWeb\resources\views\managers" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views\branshis" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views" />
       <recent name="C:\xampp\htdocs\CarWeb\resources\views\posts" />
@@ -559,7 +550,22 @@
       <workItem from="1615895165235" duration="1528000" />
       <workItem from="1615896980551" duration="1880000" />
       <workItem from="1615899131988" duration="1785000" />
-      <workItem from="1615900943213" duration="604000" />
+      <workItem from="1615900943213" duration="928000" />
+      <workItem from="1615962170421" duration="1323000" />
+      <workItem from="1615963881324" duration="1693000" />
+      <workItem from="1615965876525" duration="1079000" />
+      <workItem from="1615967690243" duration="1622000" />
+      <workItem from="1615969713096" duration="1523000" />
+      <workItem from="1615971684722" duration="917000" />
+      <workItem from="1615973621555" duration="836000" />
+      <workItem from="1615975327828" duration="1791000" />
+      <workItem from="1615977146453" duration="1785000" />
+      <workItem from="1615978961389" duration="1779000" />
+      <workItem from="1615980774267" duration="1179000" />
+      <workItem from="1615982724227" duration="1002000" />
+      <workItem from="1615985062685" duration="1591000" />
+      <workItem from="1615986882453" duration="1780000" />
+      <workItem from="1615988692367" duration="651000" />
     </task>
     <servers />
   </component>

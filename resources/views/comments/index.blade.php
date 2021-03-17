@@ -9,40 +9,25 @@
                 <table class="table table-bordered">
                     <thead>
                     <th width="80px">Id</th>
-{{--                    <th>User_Id</th>--}}
+                    <th>The commenter Name</th>
                     <th width="150px">Action</th>
                     <th>Delete Comment</th>
                     </thead>
                     <tbody>
-                    @if(isset($commenter) && $commenter -> count() > 0 )
-                        @foreach($commenter as $comment)
-                            <tr>
-                                <th scope="row">{{$comment -> id}}</th>
-{{--                                <td>{{$comment->user_id}}</td>--}}
-                                <td>
-                                    <a href="{{ route('comments.show', $comment->id) }}" class="btn btn-primary">View Comment</a>
-                                </td>
-                                <td>
-                                    <form method="get" action="{{route('$comments.delete',$comment->id)}}">
-                                        <button class="btn btn-danger">{{'delete'}}</button>
-                                    </form>
-                                </td>
-                            </tr>
-                        @endforeach
-                    @endif
-{{--                    @foreach($comments as $comment)--}}
-{{--                        <tr>--}}
-{{--                            <td>{{ $comment->id }}</td>--}}
-{{--                            <td>--}}
-{{--                                <a href="{{ route('comments.show', $comment->id) }}" class="btn btn-primary">View Comment</a>--}}
-{{--                            </td>--}}
-{{--                            <td>--}}
-{{--                                <form method="get" action="{{route('$comments.delete',$comment->id)}}">--}}
-{{--                                    <button class="btn btn-danger">{{'delete'}}</button>--}}
-{{--                                </form>--}}
-{{--                            </td>--}}
-{{--                        </tr>--}}
-{{--                    @endforeach--}}
+                    @foreach($comments as $comment)
+                        <tr>
+                            <td>{{ $comment->id }}</td>
+                            <td>{{ $comment->users->name }}</td>
+                            <td>
+                                <a href="{{ route('comments.show', $comment->id) }}" class="btn btn-primary">View Comment</a>
+                            </td>
+                            <td>
+                                <form method="get" action="{{route('$comments.delete',$comment->id)}}">
+                                    <button class="btn btn-danger">{{'delete'}}</button>
+                                </form>
+                            </td>
+                        </tr>
+                    @endforeach
 
                     </tbody>
                 </table>
