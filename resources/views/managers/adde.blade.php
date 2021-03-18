@@ -97,7 +97,7 @@
 <div class="flex-center">
     <div class="content">
         <div class="title m-b-md">
-            ADD BRANCHES
+            ADD EMPLOYEES
         </div>
 
         @if(Session::has('success'))

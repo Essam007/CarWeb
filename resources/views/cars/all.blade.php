@@ -90,7 +90,7 @@
     <form method="get" action="{{route('search')}}" role="search">
         <div class="input-group custom-search-form">
             <input type="text" class="form-control" name="search" placeholder="Search For The Car you want">
-            <button class="btn btn-info" type="submit">Search</button>
+            <button class="btn btn-info" type="submit">{{__('message.Search')}}</button>
         </div>
     </form>
 </div>
@@ -99,13 +99,13 @@
     <thead>
     <tr>
         <th scope="col">#</th>
-        <th scope="col">Car Name</th>
-        <th scope="col">Car Price</th>
-        <th scope="col">Car Model</th>
-        <th scope="col">Car Details</th>
-        <th scope="col">Car Photo</th>
-        <th scope="col">Edit Info</th>
-        <th scope="col">Delete Car</th>
+        <th scope="col">{{__('message.Car Name')}}</th>
+        <th scope="col">{{__('message.Car Price')}}</th>
+        <th scope="col">{{__('message.Car Model')}}</th>
+        <th scope="col">{{__('message.Car Details')}}</th>
+        <th scope="col">{{__('message.Car Photo')}}</th>
+        <th scope="col">{{__('message.Edit Info')}}</th>
+        <th scope="col">{{__('message.Delete Car')}}</th>
     </tr>
     </thead>
     <tbody>

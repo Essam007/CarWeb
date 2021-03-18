@@ -38,8 +38,6 @@ class CommentController extends Controller
         return redirect()->route('comments.index');
     }
 
-
-
     public function comments($user_id)
     {
         $users = User::find($user_id);

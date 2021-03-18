@@ -6,7 +6,7 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-body">
-                        <h1 class="text-center text-success">Comment</h1>
+                        <h1 class="text-center text-success">{{__('message.Comment')}}</h1>
                         <br/>
                         <h3>{{$comment->users->name}}</h3>
                         <br/>

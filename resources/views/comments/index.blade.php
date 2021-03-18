@@ -4,14 +4,14 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12">
-                <h1>Manage Comments</h1>
+                <h1>{{__('message.Manage Comments')}}</h1>
                 <a href="{{ route('comments.create') }}" class="btn btn-success" style="float: right">Write New Comment</a>
                 <table class="table table-bordered">
                     <thead>
                     <th width="80px">Id</th>
-                    <th>The commenter Name</th>
-                    <th width="150px">Action</th>
-                    <th>Delete Comment</th>
+                    <th>{{__('message.The commenter Name')}}</th>
+                    <th width="150px">{{__('message.Action')}}</th>
+                    <th>{{__('message.Delete Comment')}}</th>
                     </thead>
                     <tbody>
                     @foreach($comments as $comment)

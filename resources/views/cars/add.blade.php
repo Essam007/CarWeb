@@ -97,7 +97,7 @@
 <div class="flex-center">
     <div class="content">
         <div class="title m-b-md">
-            ADD CAR
+            {{__('message.ADD CAR')}}
         </div>
 
         @if(Session::has('success'))
@@ -110,7 +110,7 @@
              @csrf
 
             <div class="form-group">
-                <label for="exampleInputEmail">UPLOAD IMAGE</label>
+                <label for="exampleInputEmail">{{__('message.UPLOAD IMAGE')}}</label>
                 <input type="file" class="form-control" name="photo">
                 @error('photo')
                 <small class="form-text text-danger">{{$message}}</small>
@@ -118,8 +118,8 @@
             </div>
 
             <div class="form-group">
-                <label for="exampleInputEmail1">THE NAME</label>
-                <input type="text" class="form-control" name="name" placeholder="name of the car">
+                <label for="exampleInputEmail1">{{__('message.THE NAME')}}</label>
+                <input type="text" class="form-control" name="name" placeholder="{{__('message.THE NAME')}}r">
                 @error('name')
                 <small class="form-text text-danger">{{$message}}</small>
                 @enderror
@@ -134,22 +134,22 @@
             </div>
 
             <div class="form-group">
-                <label for="exampleInputPassword1">THE PRICE</label>
-                <input type="text" class="form-control" name="price" placeholder="price of the car">
+                <label for="exampleInputPassword1">{{__('message.THE PRICE')}}</label>
+                <input type="text" class="form-control" name="price" placeholder="{{__('message.THE PRICE')}}">
                 @error('price')
                 <small class="form-text text-danger">{{$message}}</small>
                 @enderror
             </div>
 
             <div class="form-group">
-                <label for="exampleInputPassword1">THE DETAILS</label>
-                <input type="text" class="form-control" name="details" placeholder="details of the car">
+                <label for="exampleInputPassword1">{{__('message.THE DETAILS')}}</label>
+                <input type="text" class="form-control" name="details" placeholder="{{__('message.THE DETAILS')}}">
                 @error('details')
                 <small class="form-text text-danger">{{$message}}</small>
                 @enderror
             </div>
 
-            <button type="submit" class="btn btn-primary">SAVE CAR</button>
+            <button type="submit" class="btn btn-primary">{{__('message.SAVE CAR')}}</button>
         </form>
 
 

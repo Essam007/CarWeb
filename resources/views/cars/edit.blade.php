@@ -74,7 +74,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Write Here To</a>
+    <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -82,12 +82,7 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-
-        <form method="get" action="{{route('home') }}" class="d-flex pl-5">
+        <form method="get" action="{{route('home') }}" class="d-flex ">
             <button class="btn btn-primary align-bottom">Home</button>
         </form>
 
@@ -101,7 +96,7 @@
 <div class="flex-center position-ref full-height">
     <div class="content">
         <div class="title m-b-md">
-            EDIT CAR INFO
+            {{__('message.EDIT CAR INFO')}}
         </div>
 
         @if(Session::has('success'))
@@ -114,7 +109,7 @@
              @csrf
 
             <div class="form-group">
-                <label for="exampleInputEmail1">THE NAME</label>
+                <label for="exampleInputEmail1">{{__('message.THE NAME')}}</label>
                 <input type="text" class="form-control" name="name" value="{{$car->name}}">
                 @error('name')
                 <small class="form-text text-danger">{{$message}}</small>
@@ -122,7 +117,7 @@
             </div>
 
             <div class="form-group">
-                <label for="exampleInputPassword1">THE MODEL</label>
+                <label for="exampleInputPassword1">{{__('message.THE MODEL')}}</label>
                 <select class="browser-default custom-select" name="model" id="model">
                     <option selected>Select Model</option>
                     <option value="{{ Form::selectYear('year', 1900, 2021) }}"></option>
@@ -130,7 +125,7 @@
             </div>
 
             <div class="form-group">
-                <label for="exampleInputPassword1">THE PRICE</label>
+                <label for="exampleInputPassword1">{{__('message.THE PRICE')}}</label>
                 <input type="text" class="form-control" name="price" value="{{$car->price}}">
                 @error('price')
                 <small class="form-text text-danger">{{$message}}</small>
@@ -138,14 +133,14 @@
             </div>
 
             <div class="form-group">
-                <label for="exampleInputPassword1">THE DETAILS</label>
+                <label for="exampleInputPassword1">{{__('message.THE DETAILS')}}</label>
                 <input type="text" class="form-control" name="details" value="{{$car->details}}">
                 @error('details')
                 <small class="form-text text-danger">{{$message}}</small>
                 @enderror
             </div>
 
-            <button type="submit" class="btn btn-primary">Save edit</button>
+            <button type="submit" class="btn btn-primary">{{__('message.Save edit')}}</button>
         </form>
 
 
