@@ -6,10 +6,10 @@
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <h2 class="title m-b-md">
-                    Citys
+                    {{__('messages.Citys')}}
                 </h2>
                 <form method="get" action="{{route('city.add') }}" class="d-flex pt-2">
-                    <button class="btn btn-primary align-bottom">Add New City</button>
+                    <button class="btn btn-primary align-bottom">{{__('messages.Add New City')}}</button>
                 </form>
 
                 <br>
@@ -18,9 +18,9 @@
                     <thead>
                     <tr>
                         <th scope="col">#</th>
-                        <th scope="col">Name</th>
-                        <th scope="col">Branches</th>
-                        <th scope="col">Procedures</th>
+                        <th scope="col">{{__('messages.name')}}</th>
+                        <th scope="col">{{__('messages.Branches')}}</th>
+                        <th scope="col">{{__('messages.Procedures')}}</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -31,10 +31,10 @@
                                 <th scope="row">{{$city -> id}}</th>
                                 <td>{{$city -> name}}</td>
                                 <td>
-                                    <a href="{{route('city.branshs',$city->id)}}" class="btn btn-success">Show Branches</a>
+                                    <a href="{{route('branches',$city->id)}}" class="btn btn-success">{{__('messages.Show Branches')}}</a>
                                 </td>
                                 <td>
-                                    <a href="{{route('citys.delete',$city->id)}}" class="btn btn-danger">Delete</a>
+                                    <a href="{{route('citys.delete',$city->id)}}" class="btn btn-danger">{{__('messages.Delete')}}</a>
                                 </td>
                             </tr>
                         @endforeach

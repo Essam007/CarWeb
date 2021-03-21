@@ -82,6 +82,19 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
+        <ul class="navbar-nav mr-auto">
+            @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                <li class="nav-item active">
+                    <a class="nav-link"
+                       href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}"> {{ $properties['native'] }}
+                        <span class="sr-only">(current)</span></a>
+                </li>
+            @endforeach
+        </ul>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
         <form method="get" action="{{route('home') }}" class="d-flex ">
             <button class="btn btn-primary align-bottom">Home</button>
         </form>
@@ -96,7 +109,7 @@
 <div class="flex-center position-ref full-height">
     <div class="content">
         <div class="title m-b-md">
-            {{__('message.EDIT CAR INFO')}}
+            {{__('messages.EDIT CAR INFO')}}
         </div>
 
         @if(Session::has('success'))
@@ -109,7 +122,7 @@
              @csrf
 
             <div class="form-group">
-                <label for="exampleInputEmail1">{{__('message.THE NAME')}}</label>
+                <label for="exampleInputEmail1">{{__('messages.THE NAME')}}</label>
                 <input type="text" class="form-control" name="name" value="{{$car->name}}">
                 @error('name')
                 <small class="form-text text-danger">{{$message}}</small>
@@ -117,7 +130,7 @@
             </div>
 
             <div class="form-group">
-                <label for="exampleInputPassword1">{{__('message.THE MODEL')}}</label>
+                <label for="exampleInputPassword1">{{__('messages.THE MODEL')}}</label>
                 <select class="browser-default custom-select" name="model" id="model">
                     <option selected>Select Model</option>
                     <option value="{{ Form::selectYear('year', 1900, 2021) }}"></option>
@@ -125,7 +138,7 @@
             </div>
 
             <div class="form-group">
-                <label for="exampleInputPassword1">{{__('message.THE PRICE')}}</label>
+                <label for="exampleInputPassword1">{{__('messages.THE PRICE')}}</label>
                 <input type="text" class="form-control" name="price" value="{{$car->price}}">
                 @error('price')
                 <small class="form-text text-danger">{{$message}}</small>
@@ -133,14 +146,14 @@
             </div>
 
             <div class="form-group">
-                <label for="exampleInputPassword1">{{__('message.THE DETAILS')}}</label>
+                <label for="exampleInputPassword1">{{__('messages.THE DETAILS')}}</label>
                 <input type="text" class="form-control" name="details" value="{{$car->details}}">
                 @error('details')
                 <small class="form-text text-danger">{{$message}}</small>
                 @enderror
             </div>
 
-            <button type="submit" class="btn btn-primary">{{__('message.Save edit')}}</button>
+            <button type="submit" class="btn btn-primary">{{__('messages.Save edit')}}</button>
         </form>
 
 

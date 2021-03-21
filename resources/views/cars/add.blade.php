@@ -83,6 +83,20 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
+        <ul class="navbar-nav mr-auto">
+            @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                <li class="nav-item active">
+                    <a class="nav-link"
+                       href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}"> {{ $properties['native'] }}
+                        <span class="sr-only">(current)</span></a>
+                </li>
+            @endforeach
+        </ul>
+
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
         <form method="get" action="{{route('home') }}" class="d-flex pb-5">
             <button class="btn btn-primary top-right">Home</button>
         </form>
@@ -97,7 +111,7 @@
 <div class="flex-center">
     <div class="content">
         <div class="title m-b-md">
-            {{__('message.ADD CAR')}}
+            {{__('messages.ADD CAR')}}
         </div>
 
         @if(Session::has('success'))
@@ -110,7 +124,7 @@
              @csrf
 
             <div class="form-group">
-                <label for="exampleInputEmail">{{__('message.UPLOAD IMAGE')}}</label>
+                <label for="exampleInputEmail">{{__('messages.UPLOAD IMAGE')}}</label>
                 <input type="file" class="form-control" name="photo">
                 @error('photo')
                 <small class="form-text text-danger">{{$message}}</small>
@@ -118,15 +132,15 @@
             </div>
 
             <div class="form-group">
-                <label for="exampleInputEmail1">{{__('message.THE NAME')}}</label>
-                <input type="text" class="form-control" name="name" placeholder="{{__('message.THE NAME')}}r">
+                <label for="exampleInputEmail1">{{__('messages.THE NAME')}}</label>
+                <input type="text" class="form-control" name="name" placeholder="{{__('messages.THE NAME')}}r">
                 @error('name')
                 <small class="form-text text-danger">{{$message}}</small>
                 @enderror
             </div>
 
             <div class="form-group">
-                <label for="exampleInputPassword1">THE MODEL</label>
+                <label for="exampleInputPassword1">{{__('messages.THE MODEL')}}</label>
                 <select class="browser-default custom-select" name="model" id="model">
                     <option selected>Select Model</option>
                     <option value="{{Form::selectYear('year', 1900, 2021)}}"></option>
@@ -134,22 +148,22 @@
             </div>
 
             <div class="form-group">
-                <label for="exampleInputPassword1">{{__('message.THE PRICE')}}</label>
-                <input type="text" class="form-control" name="price" placeholder="{{__('message.THE PRICE')}}">
+                <label for="exampleInputPassword1">{{__('messages.THE PRICE')}}</label>
+                <input type="text" class="form-control" name="price" placeholder="{{__('messages.THE PRICE')}}">
                 @error('price')
                 <small class="form-text text-danger">{{$message}}</small>
                 @enderror
             </div>
 
             <div class="form-group">
-                <label for="exampleInputPassword1">{{__('message.THE DETAILS')}}</label>
-                <input type="text" class="form-control" name="details" placeholder="{{__('message.THE DETAILS')}}">
+                <label for="exampleInputPassword1">{{__('messages.THE DETAILS')}}</label>
+                <input type="text" class="form-control" name="details" placeholder="{{__('messages.THE DETAILS')}}">
                 @error('details')
                 <small class="form-text text-danger">{{$message}}</small>
                 @enderror
             </div>
 
-            <button type="submit" class="btn btn-primary">{{__('message.SAVE CAR')}}</button>
+            <button type="submit" class="btn btn-primary">{{__('messages.SAVE CAR')}}</button>
         </form>
 
 

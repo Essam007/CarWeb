@@ -7,7 +7,7 @@
                     Employees
                 </h2>
                 <form method="get" action="{{route('employee.add') }}" class="d-flex pt-2">
-                    <button class="btn btn-primary align-bottom">Add New Employee</button>
+                    <button class="btn btn-primary align-bottom">{{__('messages.Add New Employee')}}</button>
                 </form>
                 <br>
 
@@ -15,9 +15,9 @@
                     <thead>
                     <tr>
                         <th scope="col">#</th>
-                        <th scope="col">name</th>
-                        <th scope="col">Position</th>
-                        <th scope="col">operation</th>
+                        <th scope="col">{{__('messages.name')}}</th>
+                        <th scope="col">{{__('messages.Position')}}</th>
+                        <th scope="col">{{__('messages.Procedures')}}</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -29,7 +29,7 @@
                                 <td>{{$employee-> name}}</td>
                                 <td>{{$employee-> position}}</td>
                                 <td>
-                                    <a href="{{route('employee.delete',$employee->id)}}" class="btn btn-danger">Delete</a>
+                                    <a href="{{route('employee.delete',$employee->id)}}" class="btn btn-danger">{{__('messages.Delete')}}</a>
                                 </td>
                             </tr>
                         @endforeach

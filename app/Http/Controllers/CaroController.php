@@ -10,6 +10,7 @@ use App\Models\Employee;
 use App\Models\Maneger;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
+use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
 class CaroController extends Controller
 {
@@ -68,20 +69,26 @@ class CaroController extends Controller
     protected function getMessages()
     {
         return $messages = [
-            'name.required' => 'Write the name' ,
-            'name.max:100' => 'Type Shorter name' ,
-            'price.numeric' => 'The price must be numbers' ,
-            'price.required' => 'Write The price' ,
-            'model.numeric' => 'The Model must be numbers' ,
-            'model.required' => 'Write Model' ,
-            'details.required' => 'U must right some details' ,
-            'photo.required' => 'U have to Insert a Photo' ,
+            'name.required' => __('Write the name') ,
+            'name.max:100' => __('Type Shorter name') ,
+            'price.numeric' => __('The price must be numbers') ,
+            'price.required' => __('Write The price') ,
+            'model.numeric' => __('The Model must be numbers') ,
+            'model.required' => __('Write Model') ,
+            'details.required' => __('U must right some details') ,
+            'photo.required' => __('U have to Insert a Photo') ,
         ];
     }
 
     public function getAllCars()
     {
-        $cars = Car::select('id','photo','name','price','model','details')->get();
+        $cars = Car::select('id',
+            'photo',
+            'name',
+            'price',
+            'model',
+            'details'
+        )->get();
         return view('cars.all',compact('cars'));
     }
 

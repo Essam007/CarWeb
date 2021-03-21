@@ -5,10 +5,10 @@
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <h2 class="title m-b-md">
-                    Branshes
+                    {{__('messages.Branches')}}
                 </h2>
                 <form method="get" action="{{route('branch.add') }}" class="d-flex pt-2">
-                    <button class="btn btn-primary align-bottom">Add New Branch</button>
+                    <button class="btn btn-primary align-bottom">{{__('messages.Add New Branch')}}</button>
                 </form>
                 <br>
 
@@ -16,10 +16,10 @@
                     <thead>
                     <tr>
                         <th scope="col">#</th>
-                        <th scope="col">name</th>
-                        <th scope="col">Address</th>
-                        <th scope="col">operation</th>
-                        <th scope="col">Bransh Cars</th>
+                        <th scope="col">{{__('messages.name')}}</th>
+                        <th scope="col">{{__('messages.Address')}}</th>
+                        <th scope="col">{{__('messages.operation')}}</th>
+                        <th scope="col">{{__('messages.Bransh Cars')}}</th>
                     </tr>
                     </thead>
                     <tbody>

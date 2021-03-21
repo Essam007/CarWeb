@@ -27,7 +27,7 @@ class User extends Authenticatable
 
     public function commenter()
     {
-        return $this->hasMany(Comment::class , 'user_id');
+        return $this->hasMany(Comment::class ,'user_id');
     }
 
 }

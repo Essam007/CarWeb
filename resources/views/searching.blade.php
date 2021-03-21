@@ -9,11 +9,11 @@
                         <thead>
                         <tr>
                             <th scope="col">#</th>
-                            <th scope="col">Car Name</th>
-                            <th scope="col">Car Price</th>
-                            <th scope="col">Car Model</th>
-                            <th scope="col">Car Details</th>
-                            <th scope="col">Car Photo</th>
+                            <th scope="col">{{__('messages.Car Name')}}</th>
+                            <th scope="col">{{__('messages.Car Price')}}</th>
+                            <th scope="col">{{__('messages.Car Model')}}</th>
+                            <th scope="col">{{__('messages.Car Details')}}</th>
+                            <th scope="col">{{__('messages.Car Photo')}}</th>
                         </tr>
                         </thead>
                         <tbody>

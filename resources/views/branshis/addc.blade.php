@@ -83,6 +83,19 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
+        <ul class="navbar-nav mr-auto">
+            @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                <li class="nav-item active">
+                    <a class="nav-link"
+                       href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}"> {{ $properties['native'] }}
+                        <span class="sr-only">(current)</span></a>
+                </li>
+            @endforeach
+        </ul>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
         <form method="get" action="{{route('home') }}" class="d-flex pb-5">
             <button class="btn btn-primary top-right">Home</button>
         </form>
@@ -106,14 +119,14 @@
              @csrf
 
             <div class="form-group">
-                <label for="exampleInputEmail1">THE NAME</label>
-                <input type="text" class="form-control" name="name" placeholder="name of the city">
+                <label for="exampleInputEmail1">{{__('messages.THE NAME')}}</label>
+                <input type="text" class="form-control" name="name" placeholder="{{__('messages.THE NAME')}}">
                 @error('name')
                 <small class="form-text text-danger">{{$message}}</small>
                 @enderror
             </div>
 
-            <button type="submit" class="btn btn-primary">SAVE CITY</button>
+            <button type="submit" class="btn btn-primary">{{__('messages.SAVE CITY')}}</button>
         </form>
 
 

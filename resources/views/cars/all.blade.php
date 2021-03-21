@@ -81,6 +81,19 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
+        <ul class="navbar-nav mr-auto">
+            @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                <li class="nav-item active">
+                    <a class="nav-link"
+                       href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}"> {{ $properties['native'] }}
+                        <span class="sr-only">(current)</span></a>
+                </li>
+            @endforeach
+        </ul>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
         <form method="get" action="{{route('home')}}" class="d-flex pb-5">
             <button class="btn btn-primary top-right">Home</button>
         </form>
@@ -90,7 +103,7 @@
     <form method="get" action="{{route('search')}}" role="search">
         <div class="input-group custom-search-form">
             <input type="text" class="form-control" name="search" placeholder="Search For The Car you want">
-            <button class="btn btn-info" type="submit">{{__('message.Search')}}</button>
+            <button class="btn btn-info" type="submit">{{__('messages.Search')}}</button>
         </div>
     </form>
 </div>
@@ -99,13 +112,13 @@
     <thead>
     <tr>
         <th scope="col">#</th>
-        <th scope="col">{{__('message.Car Name')}}</th>
-        <th scope="col">{{__('message.Car Price')}}</th>
-        <th scope="col">{{__('message.Car Model')}}</th>
-        <th scope="col">{{__('message.Car Details')}}</th>
-        <th scope="col">{{__('message.Car Photo')}}</th>
-        <th scope="col">{{__('message.Edit Info')}}</th>
-        <th scope="col">{{__('message.Delete Car')}}</th>
+        <th scope="col">{{__('messages.Car Name')}}</th>
+        <th scope="col">{{__('messages.Car Price')}}</th>
+        <th scope="col">{{__('messages.Car Model')}}</th>
+        <th scope="col">{{__('messages.Car Details')}}</th>
+        <th scope="col">{{__('messages.Car Photo')}}</th>
+        <th scope="col">{{__('messages.Edit Info')}}</th>
+        <th scope="col">{{__('messages.Delete Car')}}</th>
     </tr>
     </thead>
     <tbody>
