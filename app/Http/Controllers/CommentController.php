@@ -42,13 +42,13 @@ class CommentController extends Controller
     {
         $users = User::find($user_id);
         $commenter = $users->commenter;
-        return view('comments.index',compact('commenter'));
+        return view('comments.index', compact('commenter'));
     }
 
     public function show($id)
     {
         $comment=Comment::find($id);
-        return view('comments.show',compact('comment'));
+        return view('comments.show', compact('comment'));
     }
 
     public function deleteComment($comment_id)

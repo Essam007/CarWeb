@@ -17,3 +17,16 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('car' , [App\Http\Controllers\Api\CarController::class,'car']);
+Route::get('car/{id}' , [App\Http\Controllers\Api\CarController::class,'carbyid']);
+
+Route::get('branch' , [App\Http\Controllers\Api\BranshController::class,'branch']);
+
+Route::get('city' , [App\Http\Controllers\Api\CityController::class,'city']);
+
+Route::get('comment' , [App\Http\Controllers\Api\CommentController::class,'comment']);
+
+Route::get('employee' , [App\Http\Controllers\Api\EmployeeController::class,'employee']);
+
+Route::get('manager' , [App\Http\Controllers\Api\ManagerController::class,'manager']);

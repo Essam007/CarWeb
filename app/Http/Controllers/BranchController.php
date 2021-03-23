@@ -23,7 +23,7 @@ class BranchController extends Controller
         $request->validate([
             'name' => 'required',
             'adress' => 'required' ,
-            'city_id'=> 'required',
+            'city_id' => 'required',
         ]);
 
         Bransh::create($request->all());

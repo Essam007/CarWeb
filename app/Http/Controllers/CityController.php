@@ -28,4 +28,5 @@ class CityController extends Controller
         City::create($request->all());
         return redirect()->back()->with(['success' => 'The City Has Been Added Successfully']);
     }
+
 }

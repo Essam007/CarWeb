@@ -32,7 +32,6 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
 ##########################################
 
 
-
     Route::get('/cars/add', [App\Http\Controllers\CaroController::class, 'add'])->name('cars.add');
 
     Route::post('/cars/store', [App\Http\Controllers\CaroController::class, 'store'])->name('cars.store');

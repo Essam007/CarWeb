@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbdf41f-b62f-41dd-8be7-d11dbe730d05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/laravellocalization.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CarWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CarWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/BranshController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/CarController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/CityController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/CommentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/EmployeeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ManagerController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BranchController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BranchController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CaroController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EmployeeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EmployeeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ManagerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ManagerController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Bransh.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Bransh.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Car.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/City.php" afterDir="false" />
@@ -18,28 +25,8 @@
       <change beforePath="$PROJECT_DIR$/app/Models/Employee.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Employee.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Maneger.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Maneger.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/ar/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/messages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/messages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/branshis/addb.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/branshis/addb.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/branshis/addc.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/branshis/addc.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/branshis/branshies.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/branshis/branshies.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/branshis/cityis.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/branshis/cityis.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/cars/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/cars/all.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/all.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/cars/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/cars/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cars/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/comments/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comments/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/comments/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comments/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/comments/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/comments/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/managers/adde.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/managers/adde.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/managers/addm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/managers/addm.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/managers/employes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/managers/employes.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/managers/mangers.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/managers/mangers.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/searching.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/searching.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -620,6 +607,35 @@
       <workItem from="1616329434196" duration="1787000" />
       <workItem from="1616331245962" duration="1297000" />
       <workItem from="1616333058799" duration="1790000" />
+      <workItem from="1616334893163" duration="337000" />
+      <workItem from="1616392859812" duration="1450000" />
+      <workItem from="1616394658825" duration="1012000" />
+      <workItem from="1616396542949" duration="599000" />
+      <workItem from="1616398936710" duration="1449000" />
+      <workItem from="1616400756968" duration="599000" />
+      <workItem from="1616402565453" duration="1567000" />
+      <workItem from="1616404797994" duration="599000" />
+      <workItem from="1616406905907" duration="630000" />
+      <workItem from="1616408724239" duration="599000" />
+      <workItem from="1616410540779" duration="588000" />
+      <workItem from="1616412347701" duration="1250000" />
+      <workItem from="1616414164241" duration="599000" />
+      <workItem from="1616415979038" duration="599000" />
+      <workItem from="1616417791708" duration="599000" />
+      <workItem from="1616419613174" duration="599000" />
+      <workItem from="1616480615788" duration="2707000" />
+      <workItem from="1616483944655" duration="1767000" />
+      <workItem from="1616485758576" duration="1152000" />
+      <workItem from="1616487593284" duration="1347000" />
+      <workItem from="1616489410290" duration="598000" />
+      <workItem from="1616491229362" duration="599000" />
+      <workItem from="1616493248869" duration="669000" />
+      <workItem from="1616495082046" duration="600000" />
+      <workItem from="1616496898222" duration="598000" />
+      <workItem from="1616499187941" duration="652000" />
+      <workItem from="1616501016503" duration="598000" />
+      <workItem from="1616502875367" duration="599000" />
+      <workItem from="1616507166248" duration="713000" />
     </task>
     <servers />
   </component>

@@ -15,4 +15,5 @@ class Employee extends Model
     {
         return $this->hasMany(Maneger::class ,'maneger_id');
     }
+
 }

@@ -137,7 +137,7 @@ class CaroController extends Controller
     {
         $search = $request->input('search');
         $cars = Car::search($search)->get();
-        return view('searching', compact('cars', 'search'));
+        return view('searching', compact('cars','search'));
     }
 
     public function show($id)
@@ -158,7 +158,7 @@ class CaroController extends Controller
     public function branshis($city_id)
     {
         $city = City::find($city_id);
-        $branshes= $city->branshes;
+        dd($branshes= $city->branshes());
         return view('branshis.branshies' , compact('branshes'));
     }
 

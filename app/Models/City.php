@@ -14,5 +14,4 @@ class City extends Model
     {
         return $this->belongsTo(Bransh::class ,'city_id');
     }
-
 }

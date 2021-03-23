@@ -29,7 +29,7 @@
                                 <th scope="row">{{$manager->id}}</th>
                                 <td>{{$manager->name}}</td>
                                 <td>
-                                    <a href="{{route('managers.employees',$manager->id)}}" class="btn btn-success">{{__('messages.Show Employees')}}</a>
+                                    <a href="{{route('managers.employes',$manager->id)}}" class="btn btn-success">{{__('messages.Show Employees')}}</a>
                                 </td>
                                 <td>
                                     <a href="{{route('manager.delete', $manager->id)}}" class="btn btn-danger">{{__('messages.Delete')}}</a>
