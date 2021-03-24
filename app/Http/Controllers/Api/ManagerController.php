@@ -12,4 +12,5 @@ class ManagerController extends Controller
     {
         return response()->json(Maneger::get(),200);
     }
+
 }

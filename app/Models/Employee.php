@@ -13,7 +13,7 @@ class Employee extends Model
 
     public function mangers()
     {
-        return $this->hasMany(Maneger::class ,'maneger_id');
+        return $this->belongsTo(Maneger::class ,'maneger_id');
     }
 
 }

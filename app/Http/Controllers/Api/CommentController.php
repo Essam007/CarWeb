@@ -12,4 +12,5 @@ class CommentController extends Controller
     {
         return response()->json(Comment::get(),200);
     }
+
 }

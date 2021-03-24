@@ -19,6 +19,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('car' , [App\Http\Controllers\Api\CarController::class,'car']);
+
 Route::get('car/{id}' , [App\Http\Controllers\Api\CarController::class,'carbyid']);
 
 Route::get('branch' , [App\Http\Controllers\Api\BranshController::class,'branch']);
