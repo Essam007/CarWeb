@@ -31,7 +31,6 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
 
 ##########################################
 
-
     Route::get('/cars/add', [App\Http\Controllers\CaroController::class, 'add'])->name('cars.add');
 
     Route::post('/cars/store', [App\Http\Controllers\CaroController::class, 'store'])->name('cars.store');
@@ -71,7 +70,9 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
     Route::get('/citys/delete/{city_id}', [App\Http\Controllers\CaroController::class, 'deletecity'])->name('citys.delete');
 
     Route::get('/branshs/delete/{bransh_id}', [App\Http\Controllers\CaroController::class, 'deletebransh'])->name('bransh.delete');
+
 #################################
+
     Route::get('mango', [App\Http\Controllers\CaroController::class, 'mangers'])->name('managers.mangers');
 
     Route::get('employes/{maneger_id}', [App\Http\Controllers\CaroController::class, 'employee'])->name('managers.employes');

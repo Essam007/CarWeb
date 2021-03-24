@@ -12,4 +12,5 @@ class EmployeeController extends Controller
     {
         return response()->json(Employee::get(),200);
     }
+
 }

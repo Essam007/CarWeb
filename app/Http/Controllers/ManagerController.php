@@ -27,5 +27,4 @@ class ManagerController extends Controller
         Maneger::create($request->all());
         return redirect()->back()->with(['success' => 'The manager Has Been Added Successfully']);
     }
-
 }

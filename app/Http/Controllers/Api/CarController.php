@@ -24,5 +24,3 @@ class CarController extends Controller
         return response()->json(Car::find($id),200);
     }
 }
-
-
