@@ -61,4 +61,5 @@ class CommentController extends Controller
         return redirect()
             ->route('comments.index');
     }
+
 }

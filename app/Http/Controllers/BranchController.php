@@ -29,5 +29,4 @@ class BranchController extends Controller
         Bransh::create($request->all());
         return redirect()->back()->with(['success' => 'The branch Has Been Added Successfully']);
     }
-
 }

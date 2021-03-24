@@ -21,13 +21,13 @@
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ManagerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ManagerController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Bransh.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Bransh.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Car.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/City.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Comment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Employee.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Employee.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Maneger.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Maneger.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/managers/mangers.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/managers/mangers.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -639,7 +639,18 @@
       <workItem from="1616566536935" duration="834000" />
       <workItem from="1616568264479" duration="1880000" />
       <workItem from="1616570173075" duration="595000" />
-      <workItem from="1616572045850" duration="477000" />
+      <workItem from="1616572045850" duration="1733000" />
+      <workItem from="1616573870519" duration="599000" />
+      <workItem from="1616576083320" duration="2014000" />
+      <workItem from="1616578167295" duration="873000" />
+      <workItem from="1616580047394" duration="1687000" />
+      <workItem from="1616581858605" duration="1788000" />
+      <workItem from="1616583673583" duration="1380000" />
+      <workItem from="1616585495649" duration="1789000" />
+      <workItem from="1616587313430" duration="704000" />
+      <workItem from="1616589128029" duration="1349000" />
+      <workItem from="1616590947755" duration="1793000" />
+      <workItem from="1616592766070" duration="612000" />
     </task>
     <servers />
   </component>
