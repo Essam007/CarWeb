@@ -21,7 +21,6 @@ class CreateBranshsTable extends Migration
             $table->timestamps();
         });
     }
-
     /**
      * Reverse the migrations.
      *

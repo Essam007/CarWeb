@@ -14,6 +14,7 @@
                     <th>{{__('messages.Delete Comment')}}</th>
                     </thead>
                     <tbody>
+
                     @foreach($comments as $comment)
                         <tr>
                             <td>{{ $comment->id }}</td>

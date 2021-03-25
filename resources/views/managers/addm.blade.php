@@ -102,7 +102,6 @@
 
     </div>
 </nav>
-
 <div class="flex-center">
     <div class="content">
         <div class="title m-b-md">

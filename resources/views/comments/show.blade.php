@@ -16,6 +16,7 @@
             </div>
         </div>
     </div>
+
 <div class="float-right pr-5">
     <form method="get" action="{{route('comments.create') }}" class="d-flex pt-5">
         <button class="btn btn-primary align-bottom">{{__('messages.Add New Comment')}}</button>

@@ -148,7 +148,6 @@ class CaroController extends Controller
 
     #############################
 
-
     public function citis()
     {
         $citys = City::select('id' , 'name')->get();
@@ -158,7 +157,7 @@ class CaroController extends Controller
     public function branshis($city_id)
     {
         $city = City::find($city_id);
-        dd($branshes= $city->branshes());
+        $branshes= $city->branshes;
         return view('branshis.branshies' , compact('branshes'));
     }
 

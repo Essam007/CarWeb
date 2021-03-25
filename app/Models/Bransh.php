@@ -12,6 +12,7 @@ class Bransh extends Model
 
     public function citis()
     {
-        return $this->hasMany(City::class ,'city_id');
+        return $this->belongsTo(City::class ,'city_id');
     }
+
 }

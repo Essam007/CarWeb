@@ -10,7 +10,6 @@
                     <button class="btn btn-primary align-bottom">{{__('messages.Add New Employee')}}</button>
                 </form>
                 <br>
-
                 <table class="table">
                     <thead>
                     <tr>
@@ -21,7 +20,6 @@
                     </tr>
                     </thead>
                     <tbody>
-
                     @if(isset($employes) && $employes -> count() > 0 )
                         @foreach($employes as $employee)
                             <tr>

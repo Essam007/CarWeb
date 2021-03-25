@@ -1,8 +1,6 @@
 @extends('layouts.app')
 @section('content')
     <div class="container">
-
-
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <h2 class="title m-b-md">
@@ -22,7 +20,6 @@
                     </tr>
                     </thead>
                     <tbody>
-
                     @if(isset($mango) && $mango -> count() > 0 )
                         @foreach($mango as $manager)
                             <tr>
@@ -37,7 +34,6 @@
                             </tr>
                         @endforeach
                     @endif
-
                     </tbody>
                 </table>
             </div>

@@ -12,4 +12,10 @@ class BranshController extends Controller
     {
         return response()->json(Bransh::get(),200);
     }
+
+    public function branbyid($id)
+    {
+        return response()->json(Bransh::find($id),200);
+    }
+
 }

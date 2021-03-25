@@ -29,4 +29,5 @@ class EmployeeController extends Controller
         Employee::create($request->all());
         return redirect()->back()->with(['success' => 'The employee Has Been Added Successfully']);
     }
+
 }

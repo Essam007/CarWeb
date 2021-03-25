@@ -17,7 +17,6 @@
                         </tr>
                         </thead>
                         <tbody>
-
                         @foreach($cars as $car)
                             <tr>
                                 <th scope="row">{{$car->id}}</th>

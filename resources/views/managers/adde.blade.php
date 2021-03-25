@@ -145,7 +145,6 @@
                 <small class="form-text text-danger">{{$message}}</small>
                 @enderror
             </div>
-
             <button type="submit" class="btn btn-primary">{{__('messages.SAVE Employee')}}</button>
         </form>
 

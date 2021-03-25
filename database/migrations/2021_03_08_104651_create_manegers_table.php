@@ -19,7 +19,6 @@ class CreateManegersTable extends Migration
             $table->timestamps();
         });
     }
-
     /**
      * Reverse the migrations.
      *
