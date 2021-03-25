@@ -12,4 +12,9 @@ class CityController extends Controller
     {
         return response()->json(City::get(),200);
     }
+
+    public function citybyid($id)
+    {
+        return response()->json(City::find($id),200);
+    }
 }

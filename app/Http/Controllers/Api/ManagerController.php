@@ -13,4 +13,8 @@ class ManagerController extends Controller
         return response()->json(Maneger::get(),200);
     }
 
+    public function manbyid($id)
+    {
+        return response()->json(Maneger::find($id),200);
+    }
 }

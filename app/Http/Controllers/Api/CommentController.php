@@ -13,4 +13,8 @@ class CommentController extends Controller
         return response()->json(Comment::get(),200);
     }
 
+    public function combyid($id)
+    {
+        return response()->json(Comment::find($id),200);
+    }
 }

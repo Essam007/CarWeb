@@ -14,4 +14,5 @@ class City extends Model
     {
         return $this->hasMany(Bransh::class ,'city_id');
     }
+
 }
